@@ -129,6 +129,7 @@ public class UsersDwr extends BaseDwr {
 
         // Check if the username is unique.
         User dupUser = userDao.getUser(username);
+        System.out.println("Saved Password " + dupUser.getPassword());
         if (id == Common.NEW_ID && dupUser != null)
             response.addMessage(new LocalizableMessage("users.validate.usernameUnique"));
         else if (dupUser != null && id != dupUser.getId())

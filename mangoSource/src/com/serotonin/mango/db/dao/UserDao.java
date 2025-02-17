@@ -30,6 +30,7 @@ import org.springframework.transaction.support.TransactionCallbackWithoutResult;
 
 import com.serotonin.db.spring.GenericRowMapper;
 import com.serotonin.mango.Common;
+import com.serotonin.mango.db.dao.UserDao.UserRowMapper;
 import com.serotonin.mango.rt.dataImage.SetPointSource;
 import com.serotonin.mango.rt.event.EventInstance;
 import com.serotonin.mango.vo.User;
@@ -133,7 +134,8 @@ public class UserDao extends BaseDao {
                 USER_INSERT,
                 new Object[] { user.getUsername(), user.getPassword(), user.getEmail(), user.getPhone(),
                         boolToChar(user.isAdmin()), boolToChar(user.isDisabled()), user.getHomeUrl(),
-                        user.getReceiveAlarmEmails(), boolToChar(user.isReceiveOwnAuditEvents()) }, new int[] {
+                        user.getReceiveAlarmEmails(), boolToChar(user.isReceiveOwnAuditEvents()) },
+                new int[] {
                         Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR,
                         Types.VARCHAR, Types.INTEGER, Types.VARCHAR });
         user.setId(id);
@@ -144,11 +146,15 @@ public class UserDao extends BaseDao {
             + "  username=?, password=?, email=?, phone=?, admin=?, disabled=?, homeUrl=?, receiveAlarmEmails=?, "
             + "  receiveOwnAuditEvents=? " + "where id=?";
 
+    // Changed two fields, from null to empty string, phone and homeurl, which was creating an error
+
     void updateUser(User user) {
         ejt.update(
                 USER_UPDATE,
-                new Object[] { user.getUsername(), user.getPassword(), user.getEmail(), user.getPhone(),
-                        boolToChar(user.isAdmin()), boolToChar(user.isDisabled()), user.getHomeUrl(),
+                new Object[] { user.getUsername(), user.getPassword(), user.getEmail(),
+                        user.getPhone() == null ? "" : user.getPhone(),
+                        boolToChar(user.isAdmin()), boolToChar(user.isDisabled()),
+                        user.getHomeUrl() == null ? "" : user.getHomeUrl(),
                         user.getReceiveAlarmEmails(), boolToChar(user.isReceiveOwnAuditEvents()), user.getId() });
         saveRelationalData(user);
     }
