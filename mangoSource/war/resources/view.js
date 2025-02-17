@@ -253,7 +253,10 @@ mango.view.watchList.setPoint = function(pointId, componentId, value) {
         MiscDwr.notifyLongPoll(mango.longPoll.pollSessionId);
     });
 };
-
+function truncate(value) {
+    const num = parseFloat(value);
+    return isNaN(num) ? value : Math.floor(num * 100) / 100;
+}
 mango.view.watchList.setData = function(stateArr) {
     for (var i=0; i<stateArr.length; i++)
         mango.view.watchList.setDataImpl(stateArr[i]);
@@ -263,9 +266,10 @@ mango.view.watchList.setDataImpl = function(state) {
     // Check that the point exists. Ignore if it doesn't.
     if (state && $("p"+ state.id)) {
         var node;
+        
         if (state.value != null) {
             node = $("p"+ state.id +"Value");
-            node.innerHTML = state.value;
+            node.innerHTML = truncate(state.value).toFixed(2);
             dojo.html.addClass(node, "viewChangeBkgd");
             setTimeout('mango.view.watchList.safeRemoveClass("'+ node.id +'", "viewChangeBkgd")', 2000);
         }
@@ -320,7 +324,7 @@ mango.view.pointDetails.setPoint = function(pointId, componentId, value) {
 
 mango.view.pointDetails.setData = function(state) {
     if (state.value != null)
-        $("pointValue").innerHTML = state.value;
+        $("pointValue").innerHTML = truncate(state.value).toFixed(2);
     
     if (state.time != null)
         $("pointValueTime").innerHTML = state.time;
