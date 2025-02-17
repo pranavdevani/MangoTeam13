@@ -80,7 +80,8 @@ public class User implements SetPointSource, HttpSessionBindingListener, JsonSer
     private boolean receiveOwnAuditEvents;
 
     //
-    // Session data. The user object is stored in session, and some other session-based information is cached here
+    // Session data. The user object is stored in session, and some other
+    // session-based information is cached here
     // for convenience.
     //
     private transient View view;
@@ -91,30 +92,29 @@ public class User implements SetPointSource, HttpSessionBindingListener, JsonSer
     private transient Map<String, byte[]> reportImageData;
     private transient PublisherVO<? extends PublishedPointVO> editPublisher;
     private transient ImportTask importTask;
-    private transient boolean muted = false;
+    private transient boolean muted = true;
     private transient DataExportDefinition dataExportDefinition;
     private transient Map<String, Object> attributes = new HashMap<String, Object>();
 
-    public String debugString(){
+    public String debugString() {
         String out = "id: " + this.id + "\n"
-        + "username: " + this.username + "\n"
-        + "password: " + this.password + "\n"
-        + "email: " + this.email + "\n"
-        + "phone: " + this.phone + "\n"
-        + "admin: " + this.admin + "\n"
-        + "disabled: " + this.disabled + "\n"
-        
-        
-        // private List<Integer> dataSourcePermissions;
-        // private List<DataPointAccess> dataPointPermissions;
-        // private int selectedWatchList;
-        // @JsonRemoteProperty
+                + "username: " + this.username + "\n"
+                + "password: " + this.password + "\n"
+                + "email: " + this.email + "\n"
+                + "phone: " + this.phone + "\n"
+                + "admin: " + this.admin + "\n"
+                + "disabled: " + this.disabled + "\n"
 
-        + "homeUrl: " + this.homeUrl + "\n"
-        + "lastLogin: " + this.lastLogin + "\n"
-        + "receiveAlarmEmails: " + this.receiveAlarmEmails + "\n"
-        
-        + "recieveOwnAuditEvents: " + this.receiveOwnAuditEvents;
+                // private List<Integer> dataSourcePermissions;
+                // private List<DataPointAccess> dataPointPermissions;
+                // private int selectedWatchList;
+                // @JsonRemoteProperty
+
+                + "homeUrl: " + this.homeUrl + "\n"
+                + "lastLogin: " + this.lastLogin + "\n"
+                + "receiveAlarmEmails: " + this.receiveAlarmEmails + "\n"
+
+                + "recieveOwnAuditEvents: " + this.receiveOwnAuditEvents;
         return out;
     }
 
@@ -181,8 +181,7 @@ public class User implements SetPointSource, HttpSessionBindingListener, JsonSer
         if (tu != null) {
             try {
                 return requiredClass.cast(tu);
-            }
-            catch (ClassCastException e) {
+            } catch (ClassCastException e) {
                 tu.cancel();
                 testingUtility = null;
             }
@@ -423,7 +422,8 @@ public class User implements SetPointSource, HttpSessionBindingListener, JsonSer
     //
     @Override
     public void jsonDeserialize(JsonReader reader, JsonObject json) {
-        // Note: data source permissions are explicitly deserialized by the import/export because the data sources and
+        // Note: data source permissions are explicitly deserialized by the
+        // import/export because the data sources and
         // points need to be certain to exist before we can resolve the xids.
     }
 
@@ -431,8 +431,7 @@ public class User implements SetPointSource, HttpSessionBindingListener, JsonSer
         if (admin) {
             dataSourcePermissions.clear();
             dataPointPermissions.clear();
-        }
-        else {
+        } else {
             JsonArray jsonDataSources = json.getJsonArray("dataSourcePermissions");
             if (jsonDataSources != null) {
                 dataSourcePermissions.clear();
@@ -449,7 +448,8 @@ public class User implements SetPointSource, HttpSessionBindingListener, JsonSer
 
             JsonArray jsonPoints = json.getJsonArray("dataPointPermissions");
             if (jsonPoints != null) {
-                // Get a list of points to which permission already exists due to data source access.
+                // Get a list of points to which permission already exists due to data source
+                // access.
                 DataPointDao dataPointDao = new DataPointDao();
                 List<Integer> permittedPoints = new ArrayList<Integer>();
                 for (Integer dsId : dataSourcePermissions) {
