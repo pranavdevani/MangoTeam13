@@ -52,7 +52,7 @@
                 else {
                     dwr.util.addRows("historyTableData", data,
                         [
-                            function(data) { return data.value; },
+                            function(data) { return parseFloat(data.value).toFixed(2); },
                             function(data) { return data.time; },
                             function(data) { return data.annotation; }
                         ],
