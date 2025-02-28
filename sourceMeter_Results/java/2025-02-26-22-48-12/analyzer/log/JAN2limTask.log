@@ -1,0 +1,15 @@
+[2025-02-26 22:48:52] Start:JAN2limTask
+JAN2Lim 10.2.0 (Build:3aecf906c7) - (C) 2001-2022 FrontEndART Ltd.
+Integrated 3rd party tool(s): SonarQube
+The component structure  hasn't built.
+Loading file:    C:\Users\meet\Desktop\semProject\mangoSource\src\.columbus_java\MyProject.ljsi
+
+Statistics:
+	Converting time              :       8.20s
+	Saving asg time              :       0.22s
+	Dumping limml time           :       0.00s
+	Total time                   :       8.42s
+	Peak memory usage            :     213.70MB
+	Number of not existed files  :          0
+
+[2025-02-26 22:49:01] End:JAN2limTask Result:OK

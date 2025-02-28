@@ -1,0 +1,1101 @@
+Total matches: 274
+Blob matches: 6
+LongFunction matches: 137
+LongParamSize matches: 82
+featureEnvy matches: 49
+
+Pattern 'LongFunction' has been found on 'void doPoll(long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\br\org\scadabr\rt\dataSource\dnp3\Dnp3DataSource.java [Ln:37, Col:5 - Ln:95, Col:6]
+Role 'longFunc' fits on 'void doPoll(long time)' (nodeid '164'), C:\Users\meet\Desktop\semProject\mangoSource\src\br\org\scadabr\rt\dataSource\dnp3\Dnp3DataSource.java [Ln:37, Col:5 - Ln:95, Col:6]
+
+Pattern 'featureEnvy' has been found on 'Period getPeriod(int periodType, int periods)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\Common.java [Ln:145, Col:5 - Ln:166, Col:6]
+Role 'envyMethod' fits on 'Period getPeriod(int periodType, int periods)' (nodeid '958'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\Common.java [Ln:145, Col:5 - Ln:166, Col:6]
+
+Pattern 'featureEnvy' has been found on 'LocalizableMessage getPeriodDescription(int periodType, int periods)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\Common.java [Ln:168, Col:5 - Ln:200, Col:6]
+Role 'envyMethod' fits on 'LocalizableMessage getPeriodDescription(int periodType, int periods)' (nodeid '981'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\Common.java [Ln:168, Col:5 - Ln:200, Col:6]
+
+Pattern 'featureEnvy' has been found on 'CronTimerTrigger getCronTrigger(int periodType, int delaySeconds)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\Common.java [Ln:329, Col:5 - Ln:364, Col:6]
+Role 'envyMethod' fits on 'CronTimerTrigger getCronTrigger(int periodType, int delaySeconds)' (nodeid '1103'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\Common.java [Ln:329, Col:5 - Ln:364, Col:6]
+
+Pattern 'LongFunction' has been found on 'CronTimerTrigger getCronTrigger(int periodType, int delaySeconds)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\Common.java [Ln:329, Col:5 - Ln:364, Col:6]
+Role 'longFunc' fits on 'CronTimerTrigger getCronTrigger(int periodType, int delaySeconds)' (nodeid '1103'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\Common.java [Ln:329, Col:5 - Ln:364, Col:6]
+
+Pattern 'featureEnvy' has been found on 'HttpClient getHttpClient(int timeout)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\Common.java [Ln:417, Col:5 - Ln:445, Col:6]
+Role 'envyMethod' fits on 'HttpClient getHttpClient(int timeout)' (nodeid '1178'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\Common.java [Ln:417, Col:5 - Ln:445, Col:6]
+
+Pattern 'featureEnvy' has been found on 'EventType createEventType(ResultSet rs, int offset)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\EventDao.java [Ln:292, Col:5 - Ln:314, Col:6]
+Role 'envyMethod' fits on 'EventType createEventType(ResultSet rs, int offset)' (nodeid '2267'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\EventDao.java [Ln:292, Col:5 - Ln:314, Col:6]
+
+Pattern 'LongParamSize' has been found on 'List<EventInstance> search(int eventId, int eventSourceType, String status, int alarmLevel, String[] keywords, int userId, ResourceBundle bundle, int from, int to, Date date)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\EventDao.java [Ln:360, Col:5 - Ln:475, Col:6]
+Role 'tooManyParam' fits on 'List<EventInstance> search(int eventId, int eventSourceType, String status, int alarmLevel, String[] keywords, int userId, ResourceBundle bundle, int from, int to, Date date)' (nodeid '2366'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\EventDao.java [Ln:360, Col:5 - Ln:475, Col:6]
+
+Pattern 'LongFunction' has been found on 'Object extractData(ResultSet rs)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\EventDao.java [Ln:413, Col:13 - Ln:468, Col:14]
+Role 'longFunc' fits on 'Object extractData(ResultSet rs)' (nodeid '2399'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\EventDao.java [Ln:413, Col:13 - Ln:468, Col:14]
+
+Pattern 'LongFunction' has been found on 'long savePointValueImpl(int pointId, PointValueTime pointValue, SetPointSource source, boolean async)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\PointValueDao.java [Ln:119, Col:5 - Ln:198, Col:6]
+Role 'longFunc' fits on 'long savePointValueImpl(int pointId, PointValueTime pointValue, SetPointSource source, boolean async)' (nodeid '2979'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\PointValueDao.java [Ln:119, Col:5 - Ln:198, Col:6]
+
+Pattern 'LongParamSize' has been found on 'long savePointValue(int pointId, int dataType, double dvalue, long time, String svalue, SetPointSource source, boolean async)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\PointValueDao.java [Ln:211, Col:5 - Ln:235, Col:6]
+Role 'tooManyParam' fits on 'long savePointValue(int pointId, int dataType, double dvalue, long time, String svalue, SetPointSource source, boolean async)' (nodeid '3021'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\PointValueDao.java [Ln:211, Col:5 - Ln:235, Col:6]
+
+Pattern 'featureEnvy' has been found on 'MangoValue createMangoValue(ResultSet rs, int firstParameter)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\PointValueDao.java [Ln:353, Col:5 - Ln:379, Col:6]
+Role 'envyMethod' fits on 'MangoValue createMangoValue(ResultSet rs, int firstParameter)' (nodeid '3158'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\PointValueDao.java [Ln:353, Col:5 - Ln:379, Col:6]
+
+Pattern 'LongFunction' has been found on 'void execute()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\PointValueDao.java [Ln:641, Col:9 - Ln:704, Col:10]
+Role 'longFunc' fits on 'void execute()' (nodeid '3372'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\PointValueDao.java [Ln:641, Col:9 - Ln:704, Col:10]
+
+Pattern 'featureEnvy' has been found on 'int runReport(ReportInstance instance, List<PointInfo> points, ResourceBundle bundle)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\ReportDao.java [Ln:225, Col:5 - Ln:394, Col:6]
+Role 'envyMethod' fits on 'int runReport(ReportInstance instance, List<PointInfo> points, ResourceBundle bundle)' (nodeid '3613'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\ReportDao.java [Ln:225, Col:5 - Ln:394, Col:6]
+
+Pattern 'LongFunction' has been found on 'int runReport(ReportInstance instance, List<PointInfo> points, ResourceBundle bundle)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\ReportDao.java [Ln:225, Col:5 - Ln:394, Col:6]
+Role 'longFunc' fits on 'int runReport(ReportInstance instance, List<PointInfo> points, ResourceBundle bundle)' (nodeid '3613'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\ReportDao.java [Ln:225, Col:5 - Ln:394, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void processRow(ResultSet rs)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\ReportDao.java [Ln:449, Col:25 - Ln:476, Col:26]
+Role 'envyMethod' fits on 'void processRow(ResultSet rs)' (nodeid '3703'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\dao\ReportDao.java [Ln:449, Col:25 - Ln:476, Col:26]
+
+Pattern 'LongFunction' has been found on 'DataPointVO mapRow(ResultSet rs, int rowNum)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\upgrade\Upgrade0_7_0.java [Ln:270, Col:9 - Ln:425, Col:10]
+Role 'longFunc' fits on 'DataPointVO mapRow(ResultSet rs, int rowNum)' (nodeid '4954'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\upgrade\Upgrade0_7_0.java [Ln:270, Col:9 - Ln:425, Col:10]
+
+Pattern 'LongFunction' has been found on 'void processRow(ResultSet rs)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\upgrade\Upgrade1_5_0.java [Ln:217, Col:25 - Ln:287, Col:26]
+Role 'longFunc' fits on 'void processRow(ResultSet rs)' (nodeid '5524'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\db\upgrade\Upgrade1_5_0.java [Ln:217, Col:25 - Ln:287, Col:26]
+
+Pattern 'featureEnvy' has been found on 'void constantsInitialize(ServletContext ctx)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\MangoContextListener.java [Ln:136, Col:5 - Ln:233, Col:6]
+Role 'envyMethod' fits on 'void constantsInitialize(ServletContext ctx)' (nodeid '5830'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\MangoContextListener.java [Ln:136, Col:5 - Ln:233, Col:6]
+
+Pattern 'LongFunction' has been found on 'void constantsInitialize(ServletContext ctx)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\MangoContextListener.java [Ln:136, Col:5 - Ln:233, Col:6]
+Role 'longFunc' fits on 'void constantsInitialize(ServletContext ctx)' (nodeid '5830'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\MangoContextListener.java [Ln:136, Col:5 - Ln:233, Col:6]
+
+Pattern 'featureEnvy' has been found on 'String getSourceDescriptionKey()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataImage\AnnotatedPointValueTime.java [Ln:79, Col:5 - Ln:91, Col:6]
+Role 'envyMethod' fits on 'String getSourceDescriptionKey()' (nodeid '6140'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataImage\AnnotatedPointValueTime.java [Ln:79, Col:5 - Ln:91, Col:6]
+
+Pattern 'LongFunction' has been found on 'void savePointValue(PointValueTime newValue, SetPointSource source, boolean async)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataImage\DataPointRT.java [Ln:165, Col:5 - Ln:261, Col:6]
+Role 'longFunc' fits on 'void savePointValue(PointValueTime newValue, SetPointSource source, boolean async)' (nodeid '6313'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataImage\DataPointRT.java [Ln:165, Col:5 - Ln:261, Col:6]
+
+Pattern 'LongFunction' has been found on 'void intervalSave(PointValueTime pvt)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataImage\DataPointRT.java [Ln:291, Col:5 - Ln:312, Col:6]
+Role 'longFunc' fits on 'void intervalSave(PointValueTime pvt)' (nodeid '6351'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataImage\DataPointRT.java [Ln:291, Col:5 - Ln:312, Col:6]
+
+Pattern 'featureEnvy' has been found on 'MangoValue stringToValue(String valueStr, int dataType)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataImage\types\MangoValue.java [Ln:29, Col:5 - Ln:49, Col:6]
+Role 'envyMethod' fits on 'MangoValue stringToValue(String valueStr, int dataType)' (nodeid '213'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataImage\types\MangoValue.java [Ln:29, Col:5 - Ln:49, Col:6]
+
+Pattern 'LongFunction' has been found on 'void addDataPoint(DataPointRT dataPoint)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\bacnet\BACnetIPDataSourceRT.java [Ln:206, Col:5 - Ln:275, Col:6]
+Role 'longFunc' fits on 'void addDataPoint(DataPointRT dataPoint)' (nodeid '7010'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\bacnet\BACnetIPDataSourceRT.java [Ln:206, Col:5 - Ln:275, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void eventNotificationReceived(UnsignedInteger processIdentifier, RemoteDevice initiatingDevice, ObjectIdentifier eventObjectIdentifier, TimeStamp timeStamp, UnsignedInteger notificationClass, UnsignedInteger priority, EventType eventType, CharacterString messageText, NotifyType notifyType, Boolean ackRequired, EventState fromState, EventState toState, NotificationParameters eventValues)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\bacnet\BACnetIPDataSourceRT.java [Ln:545, Col:5 - Ln:552, Col:6]
+Role 'tooManyParam' fits on 'void eventNotificationReceived(UnsignedInteger processIdentifier, RemoteDevice initiatingDevice, ObjectIdentifier eventObjectIdentifier, TimeStamp timeStamp, UnsignedInteger notificationClass, UnsignedInteger priority, EventType eventType, CharacterString messageText, NotifyType notifyType, Boolean ackRequired, EventState fromState, EventState toState, NotificationParameters eventValues)' (nodeid '7153'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\bacnet\BACnetIPDataSourceRT.java [Ln:545, Col:5 - Ln:552, Col:6]
+
+Pattern 'featureEnvy' has been found on 'MangoValue encodableToValue(Encodable encodable, int dataTypeId)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\bacnet\BACnetIPDataSourceRT.java [Ln:652, Col:5 - Ln:684, Col:6]
+Role 'envyMethod' fits on 'MangoValue encodableToValue(Encodable encodable, int dataTypeId)' (nodeid '7100'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\bacnet\BACnetIPDataSourceRT.java [Ln:652, Col:5 - Ln:684, Col:6]
+
+Pattern 'LongFunction' has been found on 'MangoValue encodableToValue(Encodable encodable, int dataTypeId)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\bacnet\BACnetIPDataSourceRT.java [Ln:652, Col:5 - Ln:684, Col:6]
+Role 'longFunc' fits on 'MangoValue encodableToValue(Encodable encodable, int dataTypeId)' (nodeid '7100'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\bacnet\BACnetIPDataSourceRT.java [Ln:652, Col:5 - Ln:684, Col:6]
+
+Pattern 'LongFunction' has been found on 'Encodable valueToEncodable(MangoValue value, ObjectType objectType, PropertyIdentifier pid)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\bacnet\BACnetIPDataSourceRT.java [Ln:686, Col:5 - Ln:759, Col:6]
+Role 'longFunc' fits on 'Encodable valueToEncodable(MangoValue value, ObjectType objectType, PropertyIdentifier pid)' (nodeid '7106'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\bacnet\BACnetIPDataSourceRT.java [Ln:686, Col:5 - Ln:759, Col:6]
+
+Pattern 'LongParamSize' has been found on 'MangoValue getValue(Pattern valuePattern, String data, int dataTypeId, String binary0Value, TextRenderer textRenderer, DecimalFormat valueFormat, String pointName)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\DataSourceUtils.java [Ln:43, Col:5 - Ln:58, Col:6]
+Role 'tooManyParam' fits on 'MangoValue getValue(Pattern valuePattern, String data, int dataTypeId, String binary0Value, TextRenderer textRenderer, DecimalFormat valueFormat, String pointName)' (nodeid '7349'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\DataSourceUtils.java [Ln:43, Col:5 - Ln:58, Col:6]
+
+Pattern 'LongFunction' has been found on 'MangoValue getValue(String valueStr, int dataTypeId, String binary0Value, TextRenderer textRenderer, DecimalFormat valueFormat, String pointName)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\DataSourceUtils.java [Ln:88, Col:5 - Ln:138, Col:6]
+Role 'longFunc' fits on 'MangoValue getValue(String valueStr, int dataTypeId, String binary0Value, TextRenderer textRenderer, DecimalFormat valueFormat, String pointName)' (nodeid '7372'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\DataSourceUtils.java [Ln:88, Col:5 - Ln:138, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void doPoll(long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\ebro\EBI25DataSourceRT.java [Ln:63, Col:5 - Ln:152, Col:6]
+Role 'envyMethod' fits on 'void doPoll(long time)' (nodeid '7561'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\ebro\EBI25DataSourceRT.java [Ln:63, Col:5 - Ln:152, Col:6]
+
+Pattern 'LongFunction' has been found on 'void doPoll(long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\ebro\EBI25DataSourceRT.java [Ln:63, Col:5 - Ln:152, Col:6]
+Role 'longFunc' fits on 'void doPoll(long time)' (nodeid '7561'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\ebro\EBI25DataSourceRT.java [Ln:63, Col:5 - Ln:152, Col:6]
+
+Pattern 'LongFunction' has been found on 'void doPoll(long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\galil\GalilDataSourceRT.java [Ln:63, Col:5 - Ln:124, Col:6]
+Role 'longFunc' fits on 'void doPoll(long time)' (nodeid '7743'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\galil\GalilDataSourceRT.java [Ln:63, Col:5 - Ln:124, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void data(HttpReceiverData data)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\http\HttpReceiverDataSourceRT.java [Ln:81, Col:5 - Ln:116, Col:6]
+Role 'envyMethod' fits on 'void data(HttpReceiverData data)' (nodeid '8295'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\http\HttpReceiverDataSourceRT.java [Ln:81, Col:5 - Ln:116, Col:6]
+
+Pattern 'LongFunction' has been found on 'void doPoll(long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\http\HttpRetrieverDataSourceRT.java [Ln:67, Col:5 - Ln:120, Col:6]
+Role 'longFunc' fits on 'void doPoll(long time)' (nodeid '8385'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\http\HttpRetrieverDataSourceRT.java [Ln:67, Col:5 - Ln:120, Col:6]
+
+Pattern 'LongFunction' has been found on 'boolean updateDataPoint(DataPointRT dp)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\jmx\JmxDataSourceRT.java [Ln:197, Col:5 - Ln:295, Col:6]
+Role 'longFunc' fits on 'boolean updateDataPoint(DataPointRT dp)' (nodeid '8552'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\jmx\JmxDataSourceRT.java [Ln:197, Col:5 - Ln:295, Col:6]
+
+Pattern 'LongFunction' has been found on 'void doPoll(long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\mbus\MBusDataSourceRT.java [Ln:79, Col:5 - Ln:156, Col:6]
+Role 'longFunc' fits on 'void doPoll(long time)' (nodeid '8734'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\mbus\MBusDataSourceRT.java [Ln:79, Col:5 - Ln:156, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void initialize(SimulationTimer timer, DataPointRT dataPoint)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\meta\HistoricalMetaPointLocatorRT.java [Ln:24, Col:5 - Ln:39, Col:6]
+Role 'envyMethod' fits on 'void initialize(SimulationTimer timer, DataPointRT dataPoint)' (nodeid '9001'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\meta\HistoricalMetaPointLocatorRT.java [Ln:24, Col:5 - Ln:39, Col:6]
+
+Pattern 'LongFunction' has been found on 'PointValueTime execute(String script, Map<String, IDataPoint> context, long runtime, int dataTypeId, long timestamp)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\meta\ScriptExecutor.java [Ln:77, Col:5 - Ln:178, Col:6]
+Role 'longFunc' fits on 'PointValueTime execute(String script, Map<String, IDataPoint> context, long runtime, int dataTypeId, long timestamp)' (nodeid '9202'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\meta\ScriptExecutor.java [Ln:77, Col:5 - Ln:178, Col:6]
+
+Pattern 'LongFunction' has been found on 'void doPoll(long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\modbus\ModbusDataSource.java [Ln:141, Col:5 - Ln:257, Col:6]
+Role 'longFunc' fits on 'void doPoll(long time)' (nodeid '9444'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\modbus\ModbusDataSource.java [Ln:141, Col:5 - Ln:257, Col:6]
+
+Pattern 'LongFunction' has been found on 'void initializeImpl(NetworkPath path, List<NetworkPathElement> toTurnBackOn)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\onewire\Network.java [Ln:172, Col:5 - Ln:279, Col:6]
+Role 'longFunc' fits on 'void initializeImpl(NetworkPath path, List<NetworkPathElement> toTurnBackOn)' (nodeid '9839'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\onewire\Network.java [Ln:172, Col:5 - Ln:279, Col:6]
+
+Pattern 'LongFunction' has been found on 'void doPoll(long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\onewire\OneWireDataSourceRT.java [Ln:79, Col:5 - Ln:164, Col:6]
+Role 'longFunc' fits on 'void doPoll(long time)' (nodeid '10061'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\onewire\OneWireDataSourceRT.java [Ln:79, Col:5 - Ln:164, Col:6]
+
+Pattern 'LongFunction' has been found on 'LocalizableMessage tryRead(List<DataPointRT> points, long time, boolean throwToReload)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\onewire\OneWireDataSourceRT.java [Ln:166, Col:5 - Ln:236, Col:6]
+Role 'longFunc' fits on 'LocalizableMessage tryRead(List<DataPointRT> points, long time, boolean throwToReload)' (nodeid '10074'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\onewire\OneWireDataSourceRT.java [Ln:166, Col:5 - Ln:236, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void readSensor(OneWireContainer owc, List<DataPointRT> points, Long address, long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\onewire\OneWireDataSourceRT.java [Ln:247, Col:5 - Ln:312, Col:6]
+Role 'envyMethod' fits on 'void readSensor(OneWireContainer owc, List<DataPointRT> points, Long address, long time)' (nodeid '10095'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\onewire\OneWireDataSourceRT.java [Ln:247, Col:5 - Ln:312, Col:6]
+
+Pattern 'LongFunction' has been found on 'void readSensor(OneWireContainer owc, List<DataPointRT> points, Long address, long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\onewire\OneWireDataSourceRT.java [Ln:247, Col:5 - Ln:312, Col:6]
+Role 'longFunc' fits on 'void readSensor(OneWireContainer owc, List<DataPointRT> points, Long address, long time)' (nodeid '10095'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\onewire\OneWireDataSourceRT.java [Ln:247, Col:5 - Ln:312, Col:6]
+
+Pattern 'LongFunction' has been found on 'void setPointValue(DataPointRT dataPoint, PointValueTime valueTime, SetPointSource source)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\onewire\OneWireDataSourceRT.java [Ln:314, Col:5 - Ln:382, Col:6]
+Role 'longFunc' fits on 'void setPointValue(DataPointRT dataPoint, PointValueTime valueTime, SetPointSource source)' (nodeid '10132'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\onewire\OneWireDataSourceRT.java [Ln:314, Col:5 - Ln:382, Col:6]
+
+Pattern 'LongFunction' has been found on 'void doPoll(long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\openv4j\OpenV4JDataSourceRT.java [Ln:77, Col:5 - Ln:146, Col:6]
+Role 'longFunc' fits on 'void doPoll(long time)' (nodeid '10195'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\openv4j\OpenV4JDataSourceRT.java [Ln:77, Col:5 - Ln:146, Col:6]
+
+Pattern 'LongFunction' has been found on 'void pollFeed(int feedId, List<DataPointRT> points, long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\pachube\PachubeDataSourceRT.java [Ln:134, Col:5 - Ln:208, Col:6]
+Role 'longFunc' fits on 'void pollFeed(int feedId, List<DataPointRT> points, long time)' (nodeid '10300'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\pachube\PachubeDataSourceRT.java [Ln:134, Col:5 - Ln:208, Col:6]
+
+Pattern 'LongFunction' has been found on 'void runImpl()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\persistent\PersistentDataSourceRT.java [Ln:215, Col:9 - Ln:387, Col:10]
+Role 'longFunc' fits on 'void runImpl()' (nodeid '10485'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\persistent\PersistentDataSourceRT.java [Ln:215, Col:9 - Ln:387, Col:10]
+
+Pattern 'featureEnvy' has been found on 'void ensurePoint(String xid, byte[] serializedData)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\persistent\PersistentDataSourceRT.java [Ln:406, Col:9 - Ln:455, Col:10]
+Role 'envyMethod' fits on 'void ensurePoint(String xid, byte[] serializedData)' (nodeid '10539'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\persistent\PersistentDataSourceRT.java [Ln:406, Col:9 - Ln:455, Col:10]
+
+Pattern 'LongFunction' has been found on 'void doPoll(long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\pop3\Pop3DataSourceRT.java [Ln:71, Col:5 - Ln:157, Col:6]
+Role 'longFunc' fits on 'void doPoll(long time)' (nodeid '10744'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\pop3\Pop3DataSourceRT.java [Ln:71, Col:5 - Ln:157, Col:6]
+
+Pattern 'LongFunction' has been found on 'void doPollImpl(long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\snmp\SnmpDataSourceRT.java [Ln:95, Col:5 - Ln:174, Col:6]
+Role 'longFunc' fits on 'void doPollImpl(long time)' (nodeid '10946'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\snmp\SnmpDataSourceRT.java [Ln:95, Col:5 - Ln:174, Col:6]
+
+Pattern 'featureEnvy' has been found on 'MangoValue variableToValue(Variable variable)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\snmp\SnmpPointLocatorRT.java [Ln:73, Col:5 - Ln:98, Col:6]
+Role 'envyMethod' fits on 'MangoValue variableToValue(Variable variable)' (nodeid '10979'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\snmp\SnmpPointLocatorRT.java [Ln:73, Col:5 - Ln:98, Col:6]
+
+Pattern 'featureEnvy' has been found on 'Variable valueToVariableImpl(MangoValue value, int setType)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\snmp\SnmpPointLocatorRT.java [Ln:104, Col:5 - Ln:141, Col:6]
+Role 'envyMethod' fits on 'Variable valueToVariableImpl(MangoValue value, int setType)' (nodeid '11026'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\snmp\SnmpPointLocatorRT.java [Ln:104, Col:5 - Ln:141, Col:6]
+
+Pattern 'LongFunction' has been found on 'Variable valueToVariableImpl(MangoValue value, int setType)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\snmp\SnmpPointLocatorRT.java [Ln:104, Col:5 - Ln:141, Col:6]
+Role 'longFunc' fits on 'Variable valueToVariableImpl(MangoValue value, int setType)' (nodeid '11026'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\snmp\SnmpPointLocatorRT.java [Ln:104, Col:5 - Ln:141, Col:6]
+
+Pattern 'LongParamSize' has been found on 'Version getVersion(int version, String community, String securityName, String authProtocol, String authPassphrase, String privProtocol, String privPassphrase, String engineId, String contextEngineId, String contextName)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\snmp\Version.java [Ln:36, Col:5 - Ln:48, Col:6]
+Role 'tooManyParam' fits on 'Version getVersion(int version, String community, String securityName, String authProtocol, String authPassphrase, String privProtocol, String privPassphrase, String engineId, String contextEngineId, String contextName)' (nodeid '10904'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\snmp\Version.java [Ln:36, Col:5 - Ln:48, Col:6]
+
+Pattern 'LongFunction' has been found on 'Version3(String securityName, String authProtocol, String authPassphrase, String privProtocol, String privPassphrase, String engineId, String contextEngineId, String contextName)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\snmp\Version3.java [Ln:58, Col:5 - Ln:90, Col:6]
+Role 'longFunc' fits on 'Version3(String securityName, String authProtocol, String authPassphrase, String privProtocol, String privPassphrase, String engineId, String contextEngineId, String contextName)' (nodeid '11142'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\snmp\Version3.java [Ln:58, Col:5 - Ln:90, Col:6]
+
+Pattern 'LongParamSize' has been found on 'Version3(String securityName, String authProtocol, String authPassphrase, String privProtocol, String privPassphrase, String engineId, String contextEngineId, String contextName)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\snmp\Version3.java [Ln:58, Col:5 - Ln:90, Col:6]
+Role 'tooManyParam' fits on 'Version3(String securityName, String authProtocol, String authPassphrase, String privProtocol, String privPassphrase, String engineId, String contextEngineId, String contextName)' (nodeid '11142'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\snmp\Version3.java [Ln:58, Col:5 - Ln:90, Col:6]
+
+Pattern 'LongFunction' has been found on 'void setPointValue(DataPointRT dataPoint, PointValueTime valueTime, SetPointSource source)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\sql\SqlDataSourceRT.java [Ln:73, Col:5 - Ln:124, Col:6]
+Role 'longFunc' fits on 'void setPointValue(DataPointRT dataPoint, PointValueTime valueTime, SetPointSource source)' (nodeid '11303'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\sql\SqlDataSourceRT.java [Ln:73, Col:5 - Ln:124, Col:6]
+
+Pattern 'LongFunction' has been found on 'void doColumnPollImpl(long time, PreparedStatement stmt)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\sql\SqlDataSourceRT.java [Ln:159, Col:5 - Ln:216, Col:6]
+Role 'longFunc' fits on 'void doColumnPollImpl(long time, PreparedStatement stmt)' (nodeid '11336'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\sql\SqlDataSourceRT.java [Ln:159, Col:5 - Ln:216, Col:6]
+
+Pattern 'LongFunction' has been found on 'void doRowPollImpl(long time, PreparedStatement stmt)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\sql\SqlDataSourceRT.java [Ln:218, Col:5 - Ln:270, Col:6]
+Role 'longFunc' fits on 'void doRowPollImpl(long time, PreparedStatement stmt)' (nodeid '11334'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\sql\SqlDataSourceRT.java [Ln:218, Col:5 - Ln:270, Col:6]
+
+Pattern 'featureEnvy' has been found on 'MangoValue getValue(SqlPointLocatorVO locatorVO, ResultSet rs, String fieldName, long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\sql\SqlDataSourceRT.java [Ln:272, Col:5 - Ln:297, Col:6]
+Role 'envyMethod' fits on 'MangoValue getValue(SqlPointLocatorVO locatorVO, ResultSet rs, String fieldName, long time)' (nodeid '11344'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\sql\SqlDataSourceRT.java [Ln:272, Col:5 - Ln:297, Col:6]
+
+Pattern 'LongFunction' has been found on 'void viconicsDeviceAdded(ViconicsDevice device)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\viconics\ViconicsDataSourceRT.java [Ln:185, Col:5 - Ln:359, Col:6]
+Role 'longFunc' fits on 'void viconicsDeviceAdded(ViconicsDevice device)' (nodeid '11495'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\viconics\ViconicsDataSourceRT.java [Ln:185, Col:5 - Ln:359, Col:6]
+
+Pattern 'LongFunction' has been found on 'void viconicsDevicePointUpdated(ViconicsDevice device, StatPoint point, int deviceValue, long time)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\viconics\ViconicsDataSourceRT.java [Ln:403, Col:5 - Ln:441, Col:6]
+Role 'longFunc' fits on 'void viconicsDevicePointUpdated(ViconicsDevice device, StatPoint point, int deviceValue, long time)' (nodeid '11542'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\viconics\ViconicsDataSourceRT.java [Ln:403, Col:5 - Ln:441, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void initialize()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\vmstat\VMStatDataSourceRT.java [Ln:61, Col:5 - Ln:147, Col:6]
+Role 'envyMethod' fits on 'void initialize()' (nodeid '11799'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\vmstat\VMStatDataSourceRT.java [Ln:61, Col:5 - Ln:147, Col:6]
+
+Pattern 'LongFunction' has been found on 'void initialize()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\vmstat\VMStatDataSourceRT.java [Ln:61, Col:5 - Ln:147, Col:6]
+Role 'longFunc' fits on 'void initialize()' (nodeid '11799'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\vmstat\VMStatDataSourceRT.java [Ln:61, Col:5 - Ln:147, Col:6]
+
+Pattern 'LongFunction' has been found on 'LogicalOperator parseConditionStatement(String condition)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\compound\CompoundEventDetectorRT.java [Ln:63, Col:5 - Ln:108, Col:6]
+Role 'longFunc' fits on 'LogicalOperator parseConditionStatement(String condition)' (nodeid '12026'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\compound\CompoundEventDetectorRT.java [Ln:63, Col:5 - Ln:108, Col:6]
+
+Pattern 'LongFunction' has been found on 'LogicalOperator parseTokens(ConditionStatementCharacter[] chars, int from, int to)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\compound\CompoundEventDetectorRT.java [Ln:110, Col:5 - Ln:159, Col:6]
+Role 'longFunc' fits on 'LogicalOperator parseTokens(ConditionStatementCharacter[] chars, int from, int to)' (nodeid '12051'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\compound\CompoundEventDetectorRT.java [Ln:110, Col:5 - Ln:159, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void sendEmail(EventInstance evt, NotificationType notificationType, Set<String> addresses, String alias)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\handlers\EmailHandlerRT.java [Ln:149, Col:5 - Ln:201, Col:6]
+Role 'envyMethod' fits on 'void sendEmail(EventInstance evt, NotificationType notificationType, Set<String> addresses, String alias)' (nodeid '12823'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\handlers\EmailHandlerRT.java [Ln:149, Col:5 - Ln:201, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void eventRaised(EventInstance evt)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\handlers\SetPointHandlerRT.java [Ln:46, Col:5 - Ln:96, Col:6]
+Role 'envyMethod' fits on 'void eventRaised(EventInstance evt)' (nodeid '12890'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\handlers\SetPointHandlerRT.java [Ln:46, Col:5 - Ln:96, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void eventInactive(EventInstance evt)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\handlers\SetPointHandlerRT.java [Ln:98, Col:5 - Ln:146, Col:6]
+Role 'envyMethod' fits on 'void eventInactive(EventInstance evt)' (nodeid '12910'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\handlers\SetPointHandlerRT.java [Ln:98, Col:5 - Ln:146, Col:6]
+
+Pattern 'LongFunction' has been found on 'TimerTrigger createTrigger(boolean activeTrigger)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\maintenance\MaintenanceEventRT.java [Ln:112, Col:5 - Ln:187, Col:6]
+Role 'longFunc' fits on 'TimerTrigger createTrigger(boolean activeTrigger)' (nodeid '12968'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\maintenance\MaintenanceEventRT.java [Ln:112, Col:5 - Ln:187, Col:6]
+
+Pattern 'LongFunction' has been found on 'TimerTrigger createTrigger(boolean activeTrigger)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\schedule\ScheduledEventRT.java [Ln:132, Col:5 - Ln:207, Col:6]
+Role 'longFunc' fits on 'TimerTrigger createTrigger(boolean activeTrigger)' (nodeid '13040'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\schedule\ScheduledEventRT.java [Ln:132, Col:5 - Ln:207, Col:6]
+
+Pattern 'featureEnvy' has been found on 'Class<?> getType(JsonValue jsonValue)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\type\EventTypeFactory.java [Ln:29, Col:5 - Ln:64, Col:6]
+Role 'envyMethod' fits on 'Class<?> getType(JsonValue jsonValue)' (nodeid '13498'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\type\EventTypeFactory.java [Ln:29, Col:5 - Ln:64, Col:6]
+
+Pattern 'LongFunction' has been found on 'Class<?> getType(JsonValue jsonValue)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\type\EventTypeFactory.java [Ln:29, Col:5 - Ln:64, Col:6]
+Role 'longFunc' fits on 'Class<?> getType(JsonValue jsonValue)' (nodeid '13498'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\type\EventTypeFactory.java [Ln:29, Col:5 - Ln:64, Col:6]
+
+Pattern 'LongFunction' has been found on 'void raiseEvent(EventType type, long time, boolean rtnApplicable, int alarmLevel, LocalizableMessage message, Map<String, Object> context)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\EventManager.java [Ln:64, Col:5 - Ln:149, Col:6]
+Role 'longFunc' fits on 'void raiseEvent(EventType type, long time, boolean rtnApplicable, int alarmLevel, LocalizableMessage message, Map<String, Object> context)' (nodeid '7317'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\EventManager.java [Ln:64, Col:5 - Ln:149, Col:6]
+
+Pattern 'LongFunction' has been found on 'void joinTermination()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\maint\BackgroundProcessing.java [Ln:92, Col:5 - Ln:124, Col:6]
+Role 'longFunc' fits on 'void joinTermination()' (nodeid '5994'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\maint\BackgroundProcessing.java [Ln:92, Col:5 - Ln:124, Col:6]
+
+Pattern 'LongFunction' has been found on 'String newVersionCheckImpl(String notifLevel)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\maint\VersionCheck.java [Ln:135, Col:5 - Ln:212, Col:6]
+Role 'longFunc' fits on 'String newVersionCheckImpl(String notifLevel)' (nodeid '14002'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\maint\VersionCheck.java [Ln:135, Col:5 - Ln:212, Col:6]
+
+Pattern 'LongFunction' has been found on 'void execute()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\maint\work\ReportWorkItem.java [Ln:103, Col:5 - Ln:215, Col:6]
+Role 'longFunc' fits on 'void execute()' (nodeid '14205'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\maint\work\ReportWorkItem.java [Ln:103, Col:5 - Ln:215, Col:6]
+
+Pattern 'featureEnvy' has been found on 'boolean send(List<PublishQueueEntry<HttpPointVO>> list)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\publish\httpSender\HttpSenderRT.java [Ln:123, Col:9 - Ln:191, Col:10]
+Role 'envyMethod' fits on 'boolean send(List<PublishQueueEntry<HttpPointVO>> list)' (nodeid '14444'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\publish\httpSender\HttpSenderRT.java [Ln:123, Col:9 - Ln:191, Col:10]
+
+Pattern 'LongFunction' has been found on 'boolean send(List<PublishQueueEntry<HttpPointVO>> list)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\publish\httpSender\HttpSenderRT.java [Ln:123, Col:9 - Ln:191, Col:10]
+Role 'longFunc' fits on 'boolean send(List<PublishQueueEntry<HttpPointVO>> list)' (nodeid '14444'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\publish\httpSender\HttpSenderRT.java [Ln:123, Col:9 - Ln:191, Col:10]
+
+Pattern 'featureEnvy' has been found on 'NameValuePair[] createNVPs(List<KeyValuePair> staticParameters, List<PublishQueueEntry<HttpPointVO>> list)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\publish\httpSender\HttpSenderRT.java [Ln:194, Col:5 - Ln:227, Col:6]
+Role 'envyMethod' fits on 'NameValuePair[] createNVPs(List<KeyValuePair> staticParameters, List<PublishQueueEntry<HttpPointVO>> list)' (nodeid '14453'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\publish\httpSender\HttpSenderRT.java [Ln:194, Col:5 - Ln:227, Col:6]
+
+Pattern 'LongFunction' has been found on 'Packet readPacket(InputStream in, int version)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\publish\persistent\Packet.java [Ln:63, Col:5 - Ln:135, Col:6]
+Role 'longFunc' fits on 'Packet readPacket(InputStream in, int version)' (nodeid '10515'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\publish\persistent\Packet.java [Ln:63, Col:5 - Ln:135, Col:6]
+
+Pattern 'LongFunction' has been found on 'PacketType getPacketType(byte id)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\publish\persistent\PacketType.java [Ln:7, Col:5 - Ln:29, Col:6]
+Role 'longFunc' fits on 'PacketType getPacketType(byte id)' (nodeid '14633'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\publish\persistent\PacketType.java [Ln:7, Col:5 - Ln:29, Col:6]
+
+Pattern 'LongFunction' has been found on 'void runImpl()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\publish\persistent\PersistentSenderRT.java [Ln:189, Col:9 - Ln:297, Col:10]
+Role 'longFunc' fits on 'void runImpl()' (nodeid '14868'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\publish\persistent\PersistentSenderRT.java [Ln:189, Col:9 - Ln:297, Col:10]
+
+Pattern 'LongFunction' has been found on 'void checkRangeImpl(PersistentPointVO point, long from, long to, int depth)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\publish\persistent\PersistentSenderRT.java [Ln:531, Col:13 - Ln:648, Col:14]
+Role 'longFunc' fits on 'void checkRangeImpl(PersistentPointVO point, long from, long to, int depth)' (nodeid '14968'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\publish\persistent\PersistentSenderRT.java [Ln:531, Col:13 - Ln:648, Col:14]
+
+Pattern 'LongFunction' has been found on 'void initialize(boolean safe)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\RuntimeManager.java [Ln:116, Col:5 - Ln:210, Col:6]
+Role 'longFunc' fits on 'void initialize(boolean safe)' (nodeid '6029'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\RuntimeManager.java [Ln:116, Col:5 - Ln:210, Col:6]
+
+Pattern 'LongFunction' has been found on 'void terminate()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\RuntimeManager.java [Ln:212, Col:5 - Ln:240, Col:6]
+Role 'longFunc' fits on 'void terminate()' (nodeid '6034'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\RuntimeManager.java [Ln:212, Col:5 - Ln:240, Col:6]
+
+Pattern 'featureEnvy' has been found on 'DateTime truncateDateTime(DateTime time, int periodType)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\util\DateUtils.java [Ln:43, Col:5 - Ln:71, Col:6]
+Role 'envyMethod' fits on 'DateTime truncateDateTime(DateTime time, int periodType)' (nodeid '13924'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\util\DateUtils.java [Ln:43, Col:5 - Ln:71, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void main(String[] args)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\util\DateUtils.java [Ln:114, Col:5 - Ln:135, Col:6]
+Role 'envyMethod' fits on 'void main(String[] args)' (nodeid '15609'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\util\DateUtils.java [Ln:114, Col:5 - Ln:135, Col:6]
+
+Pattern 'LongFunction' has been found on 'char bareHTMLEntityToChar(String bareEntity, char howToTranslateNbsp)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\util\mindprod\StripEntities.java [Ln:92, Col:5 - Ln:136, Col:6]
+Role 'longFunc' fits on 'char bareHTMLEntityToChar(String bareEntity, char howToTranslateNbsp)' (nodeid '15760'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\util\mindprod\StripEntities.java [Ln:92, Col:5 - Ln:136, Col:6]
+
+Pattern 'LongFunction' has been found on 'String stripIndividualTags(String html)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\util\mindprod\StripEntities.java [Ln:2048, Col:5 - Ln:2129, Col:6]
+Role 'longFunc' fits on 'String stripIndividualTags(String html)' (nodeid '15818'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\util\mindprod\StripEntities.java [Ln:2048, Col:5 - Ln:2129, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void addDataToModel(Map<String, Object> model, DataPointVO point)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\chart\StatisticsChartRenderer.java [Ln:76, Col:5 - Ln:123, Col:6]
+Role 'envyMethod' fits on 'void addDataToModel(Map<String, Object> model, DataPointVO point)' (nodeid '16128'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\chart\StatisticsChartRenderer.java [Ln:76, Col:5 - Ln:123, Col:6]
+
+Pattern 'LongFunction' has been found on 'void addDataToModel(Map<String, Object> model, DataPointVO point)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\chart\StatisticsChartRenderer.java [Ln:76, Col:5 - Ln:123, Col:6]
+Role 'longFunc' fits on 'void addDataToModel(Map<String, Object> model, DataPointVO point)' (nodeid '16128'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\chart\StatisticsChartRenderer.java [Ln:76, Col:5 - Ln:123, Col:6]
+
+Pattern 'featureEnvy' has been found on 'List<ImplDefinition> getImplementations()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\component\ViewComponent.java [Ln:55, Col:5 - Ln:74, Col:6]
+Role 'envyMethod' fits on 'List<ImplDefinition> getImplementations()' (nodeid '16998'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\component\ViewComponent.java [Ln:55, Col:5 - Ln:74, Col:6]
+
+Pattern 'featureEnvy' has been found on 'Class<? extends ViewComponent> resolveClass(ImplDefinition def)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\component\ViewComponent.java [Ln:86, Col:5 - Ln:112, Col:6]
+Role 'envyMethod' fits on 'Class<? extends ViewComponent> resolveClass(ImplDefinition def)' (nodeid '17007'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\component\ViewComponent.java [Ln:86, Col:5 - Ln:112, Col:6]
+
+Pattern 'LongFunction' has been found on 'Class<? extends ViewComponent> resolveClass(ImplDefinition def)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\component\ViewComponent.java [Ln:86, Col:5 - Ln:112, Col:6]
+Role 'longFunc' fits on 'Class<? extends ViewComponent> resolveClass(ImplDefinition def)' (nodeid '17007'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\component\ViewComponent.java [Ln:86, Col:5 - Ln:112, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DynamicImage(String id, String name, String imageFilename, int width, int height, int textX, int textY)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\DynamicImage.java [Ln:24, Col:5 - Ln:27, Col:6]
+Role 'tooManyParam' fits on 'DynamicImage(String id, String name, String imageFilename, int width, int height, int textX, int textY)' (nodeid '17355'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\DynamicImage.java [Ln:24, Col:5 - Ln:27, Col:6]
+
+Pattern 'LongParamSize' has been found on 'ImageSet(String id, String name, String[] imageFilenames, int width, int height, int textX, int textY)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\ImageSet.java [Ln:27, Col:5 - Ln:31, Col:6]
+Role 'tooManyParam' fits on 'ImageSet(String id, String name, String[] imageFilenames, int width, int height, int textX, int textY)' (nodeid '17663'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\ImageSet.java [Ln:27, Col:5 - Ln:31, Col:6]
+
+Pattern 'LongFunction' has been found on 'Class<?> getType(JsonValue jsonValue)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\text\BaseTextRenderer.java [Ln:180, Col:9 - Ln:219, Col:10]
+Role 'longFunc' fits on 'Class<?> getType(JsonValue jsonValue)' (nodeid '18211'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\text\BaseTextRenderer.java [Ln:180, Col:9 - Ln:219, Col:10]
+
+Pattern 'LongFunction' has been found on 'void jsonDeserialize(JsonReader reader, JsonObject json)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\View.java [Ln:242, Col:5 - Ln:280, Col:6]
+Role 'longFunc' fits on 'void jsonDeserialize(JsonReader reader, JsonObject json)' (nodeid '18673'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\View.java [Ln:242, Col:5 - Ln:280, Col:6]
+
+Pattern 'LongFunction' has been found on 'void loadDirectory(File dir, String baseId)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\ViewGraphicLoader.java [Ln:65, Col:5 - Ln:132, Col:6]
+Role 'longFunc' fits on 'void loadDirectory(File dir, String baseId)' (nodeid '18717'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\ViewGraphicLoader.java [Ln:65, Col:5 - Ln:132, Col:6]
+
+Pattern 'Blob' has been found on 'DataPointVO'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\DataPointVO.java [Ln:62, Col:1 - Ln:929, Col:2]
+Role 'BlobClass' fits on 'DataPointVO' (nodeid '1546'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\DataPointVO.java [Ln:62, Col:1 - Ln:929, Col:2]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\DataPointVO.java [Ln:551, Col:5 - Ln:608, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '19035'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\DataPointVO.java [Ln:551, Col:5 - Ln:608, Col:6]
+
+Pattern 'LongFunction' has been found on 'void readObject(ObjectInputStream in)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\DataPointVO.java [Ln:640, Col:5 - Ln:839, Col:6]
+Role 'longFunc' fits on 'void readObject(ObjectInputStream in)' (nodeid '19048'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\DataPointVO.java [Ln:640, Col:5 - Ln:839, Col:6]
+
+Pattern 'LongFunction' has been found on 'void jsonDeserialize(JsonReader reader, JsonObject json)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\DataPointVO.java [Ln:853, Col:5 - Ln:928, Col:6]
+Role 'longFunc' fits on 'void jsonDeserialize(JsonReader reader, JsonObject json)' (nodeid '19052'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\DataPointVO.java [Ln:853, Col:5 - Ln:928, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\bacnet\BACnetIPDataSourceVO.java [Ln:227, Col:5 - Ln:275, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '19160'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\bacnet\BACnetIPDataSourceVO.java [Ln:227, Col:5 - Ln:275, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\bacnet\BACnetIPPointLocatorVO.java [Ln:189, Col:5 - Ln:237, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '19237'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\bacnet\BACnetIPPointLocatorVO.java [Ln:189, Col:5 - Ln:237, Col:6]
+
+Pattern 'featureEnvy' has been found on 'String getSuffix()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\ebro\EBI25PointLocatorVO.java [Ln:234, Col:5 - Ln:249, Col:6]
+Role 'envyMethod' fits on 'String getSuffix()' (nodeid '19759'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\ebro\EBI25PointLocatorVO.java [Ln:234, Col:5 - Ln:249, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\galil\TellPositionPointTypeVO.java [Ln:79, Col:5 - Ln:88, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '20126'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\galil\TellPositionPointTypeVO.java [Ln:79, Col:5 - Ln:88, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\http\HttpImagePointLocatorVO.java [Ln:167, Col:5 - Ln:190, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '20312'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\http\HttpImagePointLocatorVO.java [Ln:167, Col:5 - Ln:190, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\http\HttpRetrieverPointLocatorVO.java [Ln:125, Col:5 - Ln:172, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '20514'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\http\HttpRetrieverPointLocatorVO.java [Ln:125, Col:5 - Ln:172, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void addEventTypes(List<EventTypeVO> ets)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\jmx\JmxDataSourceVO.java [Ln:53, Col:5 - Ln:61, Col:6]
+Role 'envyMethod' fits on 'void addEventTypes(List<EventTypeVO> ets)' (nodeid '20658'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\jmx\JmxDataSourceVO.java [Ln:53, Col:5 - Ln:61, Col:6]
+
+Pattern 'LongFunction' has been found on 'int getDataTypeId()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\mbus\MBusPointLocatorVO.java [Ln:94, Col:5 - Ln:113, Col:6]
+Role 'longFunc' fits on 'int getDataTypeId()' (nodeid '20906'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\mbus\MBusPointLocatorVO.java [Ln:94, Col:5 - Ln:113, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\mbus\MBusPointLocatorVO.java [Ln:130, Col:5 - Ln:200, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '20914'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\mbus\MBusPointLocatorVO.java [Ln:130, Col:5 - Ln:200, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\meta\MetaPointLocatorVO.java [Ln:145, Col:5 - Ln:186, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '21120'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\meta\MetaPointLocatorVO.java [Ln:145, Col:5 - Ln:186, Col:6]
+
+Pattern 'LongFunction' has been found on 'void readObject(ObjectInputStream in)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\modbus\ModbusDataSourceVO.java [Ln:246, Col:5 - Ln:329, Col:6]
+Role 'longFunc' fits on 'void readObject(ObjectInputStream in)' (nodeid '21235'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\modbus\ModbusDataSourceVO.java [Ln:246, Col:5 - Ln:329, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\modbus\ModbusPointLocatorVO.java [Ln:244, Col:5 - Ln:280, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '21378'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\modbus\ModbusPointLocatorVO.java [Ln:244, Col:5 - Ln:280, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\modbus\ModbusSerialDataSourceVO.java [Ln:200, Col:5 - Ln:222, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '21472'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\modbus\ModbusSerialDataSourceVO.java [Ln:200, Col:5 - Ln:222, Col:6]
+
+Pattern 'featureEnvy' has been found on 'String getAttributeDescription(int attributeId)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\onewire\OneWirePointLocatorVO.java [Ln:69, Col:5 - Ln:83, Col:6]
+Role 'envyMethod' fits on 'String getAttributeDescription(int attributeId)' (nodeid '9978'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\onewire\OneWirePointLocatorVO.java [Ln:69, Col:5 - Ln:83, Col:6]
+
+Pattern 'featureEnvy' has been found on 'int getAttributeDataType(int attributeId)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\onewire\OneWirePointLocatorVO.java [Ln:85, Col:5 - Ln:91, Col:6]
+Role 'envyMethod' fits on 'int getAttributeDataType(int attributeId)' (nodeid '21669'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\onewire\OneWirePointLocatorVO.java [Ln:85, Col:5 - Ln:91, Col:6]
+
+Pattern 'featureEnvy' has been found on 'int getDataTypeId()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\openv4j\OpenV4JPointLocatorVO.java [Ln:56, Col:5 - Ln:76, Col:6]
+Role 'envyMethod' fits on 'int getDataTypeId()' (nodeid '10229'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\openv4j\OpenV4JPointLocatorVO.java [Ln:56, Col:5 - Ln:76, Col:6]
+
+Pattern 'LongFunction' has been found on 'int getDataTypeId()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\openv4j\OpenV4JPointLocatorVO.java [Ln:56, Col:5 - Ln:76, Col:6]
+Role 'longFunc' fits on 'int getDataTypeId()' (nodeid '10229'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\openv4j\OpenV4JPointLocatorVO.java [Ln:56, Col:5 - Ln:76, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\pop3\Pop3PointLocatorVO.java [Ln:145, Col:5 - Ln:192, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '22146'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\pop3\Pop3PointLocatorVO.java [Ln:145, Col:5 - Ln:192, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\snmp\SnmpDataSourceVO.java [Ln:288, Col:5 - Ln:319, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '22275'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\snmp\SnmpDataSourceVO.java [Ln:288, Col:5 - Ln:319, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void addEventTypes(List<EventTypeVO> ets)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\viconics\ViconicsDataSourceVO.java [Ln:51, Col:5 - Ln:65, Col:6]
+Role 'envyMethod' fits on 'void addEventTypes(List<EventTypeVO> ets)' (nodeid '22655'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\viconics\ViconicsDataSourceVO.java [Ln:51, Col:5 - Ln:65, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\viconics\ViconicsDataSourceVO.java [Ln:202, Col:5 - Ln:224, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '22707'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\viconics\ViconicsDataSourceVO.java [Ln:202, Col:5 - Ln:224, Col:6]
+
+Pattern 'featureEnvy' has been found on 'IntMessagePair[] getChangeTypes(int dataTypeId)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\virtual\ChangeTypeVO.java [Ln:70, Col:5 - Ln:91, Col:6]
+Role 'envyMethod' fits on 'IntMessagePair[] getChangeTypes(int dataTypeId)' (nodeid '22914'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\virtual\ChangeTypeVO.java [Ln:70, Col:5 - Ln:91, Col:6]
+
+Pattern 'LongFunction' has been found on 'ChangeTypeVO getChangeType()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\virtual\VirtualPointLocatorVO.java [Ln:65, Col:5 - Ln:87, Col:6]
+Role 'longFunc' fits on 'ChangeTypeVO getChangeType()' (nodeid '23173'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\virtual\VirtualPointLocatorVO.java [Ln:65, Col:5 - Ln:87, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\virtual\VirtualPointLocatorVO.java [Ln:120, Col:5 - Ln:214, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '23205'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\virtual\VirtualPointLocatorVO.java [Ln:120, Col:5 - Ln:214, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(String condition, DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\CompoundEventDetectorVO.java [Ln:86, Col:5 - Ln:129, Col:6]
+Role 'longFunc' fits on 'void validate(String condition, DwrResponseI18n response)' (nodeid '23379'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\CompoundEventDetectorVO.java [Ln:86, Col:5 - Ln:129, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java [Ln:351, Col:5 - Ln:440, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '23528'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java [Ln:351, Col:5 - Ln:440, Col:6]
+
+Pattern 'LongFunction' has been found on 'void addProperties(List<LocalizableMessage> list)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java [Ln:442, Col:5 - Ln:489, Col:6]
+Role 'longFunc' fits on 'void addProperties(List<LocalizableMessage> list)' (nodeid '23530'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java [Ln:442, Col:5 - Ln:489, Col:6]
+
+Pattern 'LongFunction' has been found on 'void readObject(ObjectInputStream in)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java [Ln:598, Col:5 - Ln:684, Col:6]
+Role 'longFunc' fits on 'void readObject(ObjectInputStream in)' (nodeid '23561'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java [Ln:598, Col:5 - Ln:684, Col:6]
+
+Pattern 'LongFunction' has been found on 'void jsonSerialize(Map<String, Object> map)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java [Ln:686, Col:5 - Ln:737, Col:6]
+Role 'longFunc' fits on 'void jsonSerialize(Map<String, Object> map)' (nodeid '23566'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java [Ln:686, Col:5 - Ln:737, Col:6]
+
+Pattern 'LongFunction' has been found on 'void jsonDeserialize(JsonReader reader, JsonObject json)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java [Ln:739, Col:5 - Ln:863, Col:6]
+Role 'longFunc' fits on 'void jsonDeserialize(JsonReader reader, JsonObject json)' (nodeid '23569'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java [Ln:739, Col:5 - Ln:863, Col:6]
+
+Pattern 'Blob' has been found on 'MaintenanceEventVO'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\MaintenanceEventVO.java [Ln:31, Col:1 - Ln:543, Col:2]
+Role 'BlobClass' fits on 'MaintenanceEventVO' (nodeid '2754'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\MaintenanceEventVO.java [Ln:31, Col:1 - Ln:543, Col:2]
+
+Pattern 'LongFunction' has been found on 'LocalizableMessage getDescription()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\MaintenanceEventVO.java [Ln:302, Col:5 - Ln:341, Col:6]
+Role 'longFunc' fits on 'LocalizableMessage getDescription()' (nodeid '12951'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\MaintenanceEventVO.java [Ln:302, Col:5 - Ln:341, Col:6]
+
+Pattern 'LongFunction' has been found on 'LocalizableMessage monthday(boolean active)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\MaintenanceEventVO.java [Ln:387, Col:5 - Ln:406, Col:6]
+Role 'longFunc' fits on 'LocalizableMessage monthday(boolean active)' (nodeid '23723'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\MaintenanceEventVO.java [Ln:387, Col:5 - Ln:406, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\MaintenanceEventVO.java [Ln:424, Col:5 - Ln:472, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '23736'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\MaintenanceEventVO.java [Ln:424, Col:5 - Ln:472, Col:6]
+
+Pattern 'LongFunction' has been found on 'void addPropertyChanges(List<LocalizableMessage> list, MaintenanceEventVO from)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\MaintenanceEventVO.java [Ln:485, Col:5 - Ln:505, Col:6]
+Role 'longFunc' fits on 'void addPropertyChanges(List<LocalizableMessage> list, MaintenanceEventVO from)' (nodeid '23741'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\MaintenanceEventVO.java [Ln:485, Col:5 - Ln:505, Col:6]
+
+Pattern 'LongFunction' has been found on 'PointEventDetectorRT createRuntime()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\PointEventDetectorVO.java [Ln:147, Col:5 - Ln:173, Col:6]
+Role 'longFunc' fits on 'PointEventDetectorRT createRuntime()' (nodeid '6484'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\PointEventDetectorVO.java [Ln:147, Col:5 - Ln:173, Col:6]
+
+Pattern 'LongFunction' has been found on 'LocalizableMessage getConfigurationDescription()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\PointEventDetectorVO.java [Ln:190, Col:5 - Ln:261, Col:6]
+Role 'longFunc' fits on 'LocalizableMessage getConfigurationDescription()' (nodeid '23837'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\PointEventDetectorVO.java [Ln:190, Col:5 - Ln:261, Col:6]
+
+Pattern 'LongFunction' has been found on 'void jsonDeserialize(JsonReader reader, JsonObject json)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\PointEventDetectorVO.java [Ln:436, Col:5 - Ln:498, Col:6]
+Role 'longFunc' fits on 'void jsonDeserialize(JsonReader reader, JsonObject json)' (nodeid '23872'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\PointEventDetectorVO.java [Ln:436, Col:5 - Ln:498, Col:6]
+
+Pattern 'LongFunction' has been found on 'void jsonSerialize(Map<String, Object> map)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\PointEventDetectorVO.java [Ln:500, Col:5 - Ln:550, Col:6]
+Role 'longFunc' fits on 'void jsonSerialize(Map<String, Object> map)' (nodeid '23885'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\PointEventDetectorVO.java [Ln:500, Col:5 - Ln:550, Col:6]
+
+Pattern 'Blob' has been found on 'ScheduledEventVO'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\ScheduledEventVO.java [Ln:51, Col:1 - Ln:560, Col:2]
+Role 'BlobClass' fits on 'ScheduledEventVO' (nodeid '3785'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\ScheduledEventVO.java [Ln:51, Col:1 - Ln:560, Col:2]
+
+Pattern 'LongFunction' has been found on 'LocalizableMessage getDescription()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\ScheduledEventVO.java [Ln:136, Col:5 - Ln:198, Col:6]
+Role 'longFunc' fits on 'LocalizableMessage getDescription()' (nodeid '13022'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\ScheduledEventVO.java [Ln:136, Col:5 - Ln:198, Col:6]
+
+Pattern 'LongFunction' has been found on 'LocalizableMessage monthday(boolean active)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\ScheduledEventVO.java [Ln:242, Col:5 - Ln:261, Col:6]
+Role 'longFunc' fits on 'LocalizableMessage monthday(boolean active)' (nodeid '23960'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\ScheduledEventVO.java [Ln:242, Col:5 - Ln:261, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validate(DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\ScheduledEventVO.java [Ln:279, Col:5 - Ln:330, Col:6]
+Role 'longFunc' fits on 'void validate(DwrResponseI18n response)' (nodeid '23975'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\ScheduledEventVO.java [Ln:279, Col:5 - Ln:330, Col:6]
+
+Pattern 'LongFunction' has been found on 'void addPropertyChanges(List<LocalizableMessage> list, ScheduledEventVO from)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\ScheduledEventVO.java [Ln:343, Col:5 - Ln:362, Col:6]
+Role 'longFunc' fits on 'void addPropertyChanges(List<LocalizableMessage> list, ScheduledEventVO from)' (nodeid '23982'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\ScheduledEventVO.java [Ln:343, Col:5 - Ln:362, Col:6]
+
+Pattern 'featureEnvy' has been found on 'int getDataPointAccessType(User user, DataPointVO point)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\permission\Permissions.java [Ln:172, Col:5 - Ln:187, Col:6]
+Role 'envyMethod' fits on 'int getDataPointAccessType(User user, DataPointVO point)' (nodeid '24395'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\permission\Permissions.java [Ln:172, Col:5 - Ln:187, Col:6]
+
+Pattern 'featureEnvy' has been found on 'boolean hasEventTypePermission(User user, EventType eventType)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\permission\Permissions.java [Ln:239, Col:5 - Ln:254, Col:6]
+Role 'envyMethod' fits on 'boolean hasEventTypePermission(User user, EventType eventType)' (nodeid '13690'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\permission\Permissions.java [Ln:239, Col:5 - Ln:254, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void getEventTypesImpl(List<EventTypeVO> eventTypes)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\publish\httpSender\HttpSenderVO.java [Ln:52, Col:5 - Ln:58, Col:6]
+Role 'envyMethod' fits on 'void getEventTypesImpl(List<EventTypeVO> eventTypes)' (nodeid '24479'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\publish\httpSender\HttpSenderVO.java [Ln:52, Col:5 - Ln:58, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void getEventTypesImpl(List<EventTypeVO> eventTypes)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\publish\persistent\PersistentSenderVO.java [Ln:47, Col:5 - Ln:64, Col:6]
+Role 'envyMethod' fits on 'void getEventTypesImpl(List<EventTypeVO> eventTypes)' (nodeid '24646'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\publish\persistent\PersistentSenderVO.java [Ln:47, Col:5 - Ln:64, Col:6]
+
+Pattern 'LongFunction' has been found on 'void writeChart(PointTimeSeriesCollection pointTimeSeriesCollection, boolean showLegend, OutputStream out, int width, int height)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ImageChartUtils.java [Ln:79, Col:5 - Ln:175, Col:6]
+Role 'longFunc' fits on 'void writeChart(PointTimeSeriesCollection pointTimeSeriesCollection, boolean showLegend, OutputStream out, int width, int height)' (nodeid '24958'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ImageChartUtils.java [Ln:79, Col:5 - Ln:175, Col:6]
+
+Pattern 'LongFunction' has been found on 'void createContent(ReportInstance reportInstance, ReportDao reportDao, String inlinePrefix, boolean createExportFile)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportChartCreator.java [Ln:109, Col:5 - Ln:240, Col:6]
+Role 'longFunc' fits on 'void createContent(ReportInstance reportInstance, ReportDao reportDao, String inlinePrefix, boolean createExportFile)' (nodeid '14231'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportChartCreator.java [Ln:109, Col:5 - Ln:240, Col:6]
+
+Pattern 'LongFunction' has been found on 'void startPoint(ReportPointInfo pointInfo)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportChartCreator.java [Ln:491, Col:9 - Ln:566, Col:10]
+Role 'longFunc' fits on 'void startPoint(ReportPointInfo pointInfo)' (nodeid '25281'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportChartCreator.java [Ln:491, Col:9 - Ln:566, Col:10]
+
+Pattern 'Blob' has been found on 'ReportVO'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java [Ln:38, Col:1 - Ln:626, Col:2]
+Role 'BlobClass' fits on 'ReportVO' (nodeid '3467'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java [Ln:38, Col:1 - Ln:626, Col:2]
+
+Pattern 'LongFunction' has been found on 'void readObject(ObjectInputStream in)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java [Ln:406, Col:5 - Ln:615, Col:6]
+Role 'longFunc' fits on 'void readObject(ObjectInputStream in)' (nodeid '25751'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java [Ln:406, Col:5 - Ln:615, Col:6]
+
+Pattern 'Blob' has been found on 'User'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\User.java [Ln:57, Col:1 - Ln:506, Col:2]
+Role 'BlobClass' fits on 'User' (nodeid '987'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\User.java [Ln:57, Col:1 - Ln:506, Col:2]
+
+Pattern 'LongFunction' has been found on 'void jsonDeserializePermissions(JsonReader reader, JsonObject json)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\User.java [Ln:430, Col:5 - Ln:470, Col:6]
+Role 'longFunc' fits on 'void jsonDeserializePermissions(JsonReader reader, JsonObject json)' (nodeid '25951'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\User.java [Ln:430, Col:5 - Ln:470, Col:6]
+
+Pattern 'LongFunction' has been found on 'int compare(EventInstance e1, EventInstance e2)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\comparators\EventInstanceComparator.java [Ln:50, Col:5 - Ln:79, Col:6]
+Role 'longFunc' fits on 'int compare(EventInstance e1, EventInstance e2)' (nodeid '26085'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\comparators\EventInstanceComparator.java [Ln:50, Col:5 - Ln:79, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DateTime createDateTime(int year, int month, int day, int hour, int minute, int second, boolean none)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\BaseDwr.java [Ln:325, Col:5 - Ln:335, Col:6]
+Role 'tooManyParam' fits on 'DateTime createDateTime(int year, int month, int day, int hour, int minute, int second, boolean none)' (nodeid '26260'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\BaseDwr.java [Ln:325, Col:5 - Ln:335, Col:6]
+
+Pattern 'LongParamSize' has been found on 'BACnetDiscovery(ResourceBundle bundle, int deviceId, String broadcastAddress, int port, int timeout, int segTimeout, int segWindow, int retries, int whoIsPort, int maxReadMultipleReferencesSegmented, int maxReadMultipleReferencesNonsegmented)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\BACnetDiscovery.java [Ln:71, Col:5 - Ln:121, Col:6]
+Role 'tooManyParam' fits on 'BACnetDiscovery(ResourceBundle bundle, int deviceId, String broadcastAddress, int port, int timeout, int segTimeout, int segWindow, int retries, int whoIsPort, int maxReadMultipleReferencesSegmented, int maxReadMultipleReferencesNonsegmented)' (nodeid '26356'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\BACnetDiscovery.java [Ln:71, Col:5 - Ln:121, Col:6]
+
+Pattern 'LongFunction' has been found on 'List<BACnetObjectBean> getDetails(LocalDevice localDevice, RemoteDevice d)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\BACnetDiscovery.java [Ln:230, Col:5 - Ln:309, Col:6]
+Role 'longFunc' fits on 'List<BACnetObjectBean> getDetails(LocalDevice localDevice, RemoteDevice d)' (nodeid '26409'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\BACnetDiscovery.java [Ln:230, Col:5 - Ln:309, Col:6]
+
+Pattern 'LongFunction' has been found on 'void addPropertyReferences(PropertyReferences refs, ObjectIdentifier oid)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\BACnetDiscovery.java [Ln:311, Col:5 - Ln:341, Col:6]
+Role 'longFunc' fits on 'void addPropertyReferences(PropertyReferences refs, ObjectIdentifier oid)' (nodeid '26419'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\BACnetDiscovery.java [Ln:311, Col:5 - Ln:341, Col:6]
+
+Pattern 'LongFunction' has been found on 'String getPrettyPresentValue()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\BACnetObjectBean.java [Ln:42, Col:5 - Ln:76, Col:6]
+Role 'longFunc' fits on 'String getPrettyPresentValue()' (nodeid '26456'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\BACnetObjectBean.java [Ln:42, Col:5 - Ln:76, Col:6]
+
+Pattern 'LongParamSize' has been found on 'EBI25InterfaceReader(ResourceBundle bundle, EBI25DataSourceVO dataSource, String host, int port, boolean keepAlive, int timeout, int retries)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\EBI25InterfaceReader.java [Ln:67, Col:5 - Ln:158, Col:6]
+Role 'tooManyParam' fits on 'EBI25InterfaceReader(ResourceBundle bundle, EBI25DataSourceVO dataSource, String host, int port, boolean keepAlive, int timeout, int retries)' (nodeid '26587'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\EBI25InterfaceReader.java [Ln:67, Col:5 - Ln:158, Col:6]
+
+Pattern 'LongFunction' has been found on 'void run()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\GalilCommandTester.java [Ln:50, Col:5 - Ln:95, Col:6]
+Role 'longFunc' fits on 'void run()' (nodeid '26799'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\GalilCommandTester.java [Ln:50, Col:5 - Ln:95, Col:6]
+
+Pattern 'LongFunction' has been found on 'void runImpl()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java [Ln:157, Col:5 - Ln:252, Col:6]
+Role 'longFunc' fits on 'void runImpl()' (nodeid '26970'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java [Ln:157, Col:5 - Ln:252, Col:6]
+
+Pattern 'LongFunction' has been found on 'void importDataSource(JsonObject dataSource)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java [Ln:297, Col:5 - Ln:347, Col:6]
+Role 'longFunc' fits on 'void importDataSource(JsonObject dataSource)' (nodeid '26976'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java [Ln:297, Col:5 - Ln:347, Col:6]
+
+Pattern 'LongFunction' has been found on 'void importDataPoint(JsonObject dataPoint)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java [Ln:349, Col:5 - Ln:412, Col:6]
+Role 'longFunc' fits on 'void importDataPoint(JsonObject dataPoint)' (nodeid '26979'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java [Ln:349, Col:5 - Ln:412, Col:6]
+
+Pattern 'LongFunction' has been found on 'void importPublisher(JsonObject publisher)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java [Ln:637, Col:5 - Ln:687, Col:6]
+Role 'longFunc' fits on 'void importPublisher(JsonObject publisher)' (nodeid '27002'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java [Ln:637, Col:5 - Ln:687, Col:6]
+
+Pattern 'LongParamSize' has been found on 'MBusDiscovery createPrimaryAddressingSearch(ResourceBundle resourceBundle, String commPortId, String phonenumber, int baudrate, int flowControlIn, int flowcontrolOut, int dataBits, int stopBits, int parity, int firstPrimaryAddress, int lastPrimaryAddress)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\MBusDiscovery.java [Ln:45, Col:5 - Ln:54, Col:6]
+Role 'tooManyParam' fits on 'MBusDiscovery createPrimaryAddressingSearch(ResourceBundle resourceBundle, String commPortId, String phonenumber, int baudrate, int flowControlIn, int flowcontrolOut, int dataBits, int stopBits, int parity, int firstPrimaryAddress, int lastPrimaryAddress)' (nodeid '27164'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\MBusDiscovery.java [Ln:45, Col:5 - Ln:54, Col:6]
+
+Pattern 'LongParamSize' has been found on 'MBusDiscovery createSecondaryAddressingSearch(ResourceBundle resourceBundle, String commPortId, String phonenumber, int baudrate, int flowControlIn, int flowcontrolOut, int dataBits, int stopBits, int parity)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\MBusDiscovery.java [Ln:56, Col:5 - Ln:63, Col:6]
+Role 'tooManyParam' fits on 'MBusDiscovery createSecondaryAddressingSearch(ResourceBundle resourceBundle, String commPortId, String phonenumber, int baudrate, int flowControlIn, int flowcontrolOut, int dataBits, int stopBits, int parity)' (nodeid '27186'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\MBusDiscovery.java [Ln:56, Col:5 - Ln:63, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void run()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\MBusDiscovery.java [Ln:70, Col:9 - Ln:99, Col:10]
+Role 'envyMethod' fits on 'void run()' (nodeid '27202'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\MBusDiscovery.java [Ln:70, Col:9 - Ln:99, Col:10]
+
+Pattern 'LongParamSize' has been found on 'MBusDiscovery(ResourceBundle bundle, String comPortId, String phonenumber, MBusAddressing mBusAddressing, int baudrate, int flowControlIn, int flowcontrolOut, int dataBits, int stopBits, int parity)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\MBusDiscovery.java [Ln:131, Col:5 - Ln:175, Col:6]
+Role 'tooManyParam' fits on 'MBusDiscovery(ResourceBundle bundle, String comPortId, String phonenumber, MBusAddressing mBusAddressing, int baudrate, int flowControlIn, int flowcontrolOut, int dataBits, int stopBits, int parity)' (nodeid '27178'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\MBusDiscovery.java [Ln:131, Col:5 - Ln:175, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void run()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\OpenV4JDiscovery.java [Ln:61, Col:9 - Ln:88, Col:10]
+Role 'envyMethod' fits on 'void run()' (nodeid '27390'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\OpenV4JDiscovery.java [Ln:61, Col:9 - Ln:88, Col:10]
+
+Pattern 'LongFunction' has been found on 'void jsonDeserialize(JsonReader reader, JsonObject json)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\RecipientListEntryBean.java [Ln:99, Col:5 - Ln:137, Col:6]
+Role 'longFunc' fits on 'void jsonDeserialize(JsonReader reader, JsonObject json)' (nodeid '27477'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\RecipientListEntryBean.java [Ln:99, Col:5 - Ln:137, Col:6]
+
+Pattern 'LongParamSize' has been found on 'SnmpOidGet(ResourceBundle bundle, String host, int port, Version version, String oid, int retries, int timeout)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\SnmpOidGet.java [Ln:47, Col:5 - Ln:57, Col:6]
+Role 'tooManyParam' fits on 'SnmpOidGet(ResourceBundle bundle, String host, int port, Version version, String oid, int retries, int timeout)' (nodeid '27512'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\SnmpOidGet.java [Ln:47, Col:5 - Ln:57, Col:6]
+
+Pattern 'LongParamSize' has been found on 'SqlStatementTester(ResourceBundle bundle, String driverClassname, String connectionUrl, String username, String password, String selectStatement, boolean rowBasedQuery)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\SqlStatementTester.java [Ln:52, Col:5 - Ln:62, Col:6]
+Role 'tooManyParam' fits on 'SqlStatementTester(ResourceBundle bundle, String driverClassname, String connectionUrl, String username, String password, String selectStatement, boolean rowBasedQuery)' (nodeid '27597'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\SqlStatementTester.java [Ln:52, Col:5 - Ln:62, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveCompoundEvent(int id, String xid, String name, int alarmLevel, boolean returnToNormal, String condition, boolean disabled)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\CompoundEventsDwr.java [Ln:102, Col:5 - Ln:138, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveCompoundEvent(int id, String xid, String name, int alarmLevel, boolean returnToNormal, String condition, boolean disabled)' (nodeid '27696'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\CompoundEventsDwr.java [Ln:102, Col:5 - Ln:138, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n getImageChartData(int fromYear, int fromMonth, int fromDay, int fromHour, int fromMinute, int fromSecond, boolean fromNone, int toYear, int toMonth, int toDay, int toHour, int toMinute, int toSecond, boolean toNone, int width, int height)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointDetailsDwr.java [Ln:108, Col:5 - Ln:134, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n getImageChartData(int fromYear, int fromMonth, int fromDay, int fromHour, int fromMinute, int fromSecond, boolean fromNone, int toYear, int toMonth, int toDay, int toHour, int toMinute, int toSecond, boolean toNone, int width, int height)' (nodeid '27759'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointDetailsDwr.java [Ln:108, Col:5 - Ln:134, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void getChartData(int fromYear, int fromMonth, int fromDay, int fromHour, int fromMinute, int fromSecond, boolean fromNone, int toYear, int toMonth, int toDay, int toHour, int toMinute, int toSecond, boolean toNone)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointDetailsDwr.java [Ln:136, Col:5 - Ln:143, Col:6]
+Role 'tooManyParam' fits on 'void getChartData(int fromYear, int fromMonth, int fromDay, int fromHour, int fromMinute, int fromSecond, boolean fromNone, int toYear, int toMonth, int toDay, int toHour, int toMinute, int toSecond, boolean toNone)' (nodeid '27779'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointDetailsDwr.java [Ln:136, Col:5 - Ln:143, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void updateHighLimitDetector(int pedId, String xid, String alias, double limit, int duration, int durationType, int alarmLevel)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:193, Col:5 - Ln:202, Col:6]
+Role 'tooManyParam' fits on 'void updateHighLimitDetector(int pedId, String xid, String alias, double limit, int duration, int durationType, int alarmLevel)' (nodeid '27894'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:193, Col:5 - Ln:202, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void updateLowLimitDetector(int pedId, String xid, String alias, double limit, int duration, int durationType, int alarmLevel)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:204, Col:5 - Ln:213, Col:6]
+Role 'tooManyParam' fits on 'void updateLowLimitDetector(int pedId, String xid, String alias, double limit, int duration, int durationType, int alarmLevel)' (nodeid '27902'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:204, Col:5 - Ln:213, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void updateBinaryStateDetector(int pedId, String xid, String alias, boolean state, int duration, int durationType, int alarmLevel)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:215, Col:5 - Ln:224, Col:6]
+Role 'tooManyParam' fits on 'void updateBinaryStateDetector(int pedId, String xid, String alias, boolean state, int duration, int durationType, int alarmLevel)' (nodeid '27910'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:215, Col:5 - Ln:224, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void updateMultistateStateDetector(int pedId, String xid, String alias, int state, int duration, int durationType, int alarmLevel)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:226, Col:5 - Ln:235, Col:6]
+Role 'tooManyParam' fits on 'void updateMultistateStateDetector(int pedId, String xid, String alias, int state, int duration, int durationType, int alarmLevel)' (nodeid '27918'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:226, Col:5 - Ln:235, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void updateStateChangeCountDetector(int pedId, String xid, String alias, int count, int duration, int durationType, int alarmLevel)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:244, Col:5 - Ln:253, Col:6]
+Role 'tooManyParam' fits on 'void updateStateChangeCountDetector(int pedId, String xid, String alias, int count, int duration, int durationType, int alarmLevel)' (nodeid '27931'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:244, Col:5 - Ln:253, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void updateAlphanumericStateDetector(int pedId, String xid, String alias, String state, int duration, int durationType, int alarmLevel)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:275, Col:5 - Ln:284, Col:6]
+Role 'tooManyParam' fits on 'void updateAlphanumericStateDetector(int pedId, String xid, String alias, String state, int duration, int durationType, int alarmLevel)' (nodeid '27953'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:275, Col:5 - Ln:284, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void updatePositiveCusumDetector(int pedId, String xid, String alias, double limit, double weight, int duration, int durationType, int alarmLevel)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:286, Col:5 - Ln:296, Col:6]
+Role 'tooManyParam' fits on 'void updatePositiveCusumDetector(int pedId, String xid, String alias, double limit, double weight, int duration, int durationType, int alarmLevel)' (nodeid '27961'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:286, Col:5 - Ln:296, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void updateNegativeCusumDetector(int pedId, String xid, String alias, double limit, double weight, int duration, int durationType, int alarmLevel)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:298, Col:5 - Ln:308, Col:6]
+Role 'tooManyParam' fits on 'void updateNegativeCusumDetector(int pedId, String xid, String alias, double limit, double weight, int duration, int durationType, int alarmLevel)' (nodeid '27970'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataPointEditDwr.java [Ln:298, Col:5 - Ln:308, Col:6]
+
+Pattern 'Blob' has been found on 'DataSourceEditDwr'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:210, Col:1 - Ln:2301, Col:2]
+Role 'BlobClass' fits on 'DataSourceEditDwr' (nodeid '27980'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:210, Col:1 - Ln:2301, Col:2]
+
+Pattern 'LongFunction' has been found on 'void testModbusData(ModbusMaster modbusMaster, int slaveId, int range, int offset, int length, boolean serial, DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:438, Col:5 - Ln:484, Col:6]
+Role 'longFunc' fits on 'void testModbusData(ModbusMaster modbusMaster, int slaveId, int range, int offset, int length, boolean serial, DwrResponseI18n response)' (nodeid '28084'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:438, Col:5 - Ln:484, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void testModbusData(ModbusMaster modbusMaster, int slaveId, int range, int offset, int length, boolean serial, DwrResponseI18n response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:438, Col:5 - Ln:484, Col:6]
+Role 'tooManyParam' fits on 'void testModbusData(ModbusMaster modbusMaster, int slaveId, int range, int offset, int length, boolean serial, DwrResponseI18n response)' (nodeid '28084'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:438, Col:5 - Ln:484, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveModbusSerialDataSource(String name, String xid, int updatePeriods, int updatePeriodType, boolean quantize, int timeout, int retries, boolean contiguousBatches, boolean createSlaveMonitorPoints, int maxReadBitCount, int maxReadRegisterCount, int maxWriteRegisterCount, String commPortId, int baudRate, int flowControlIn, int flowControlOut, int dataBits, int stopBits, int parity, String encoding, boolean echo, int concurrency)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:490, Col:5 - Ln:522, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveModbusSerialDataSource(String name, String xid, int updatePeriods, int updatePeriodType, boolean quantize, int timeout, int retries, boolean contiguousBatches, boolean createSlaveMonitorPoints, int maxReadBitCount, int maxReadRegisterCount, int maxWriteRegisterCount, String commPortId, int baudRate, int flowControlIn, int flowControlOut, int dataBits, int stopBits, int parity, String encoding, boolean echo, int concurrency)' (nodeid '28094'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:490, Col:5 - Ln:522, Col:6]
+
+Pattern 'LongParamSize' has been found on 'String modbusSerialScan(int timeout, int retries, String commPortId, int baudRate, int flowControlIn, int flowControlOut, int dataBits, int stopBits, int parity, String encoding, int concurrency)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:524, Col:5 - Ln:538, Col:6]
+Role 'tooManyParam' fits on 'String modbusSerialScan(int timeout, int retries, String commPortId, int baudRate, int flowControlIn, int flowControlOut, int dataBits, int stopBits, int parity, String encoding, int concurrency)' (nodeid '28130'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:524, Col:5 - Ln:538, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n testModbusSerialLocator(int timeout, int retries, String commPortId, int baudRate, int flowControlIn, int flowControlOut, int dataBits, int stopBits, int parity, String encoding, int concurrency, ModbusPointLocatorVO locator)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:540, Col:5 - Ln:555, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n testModbusSerialLocator(int timeout, int retries, String commPortId, int baudRate, int flowControlIn, int flowControlOut, int dataBits, int stopBits, int parity, String encoding, int concurrency, ModbusPointLocatorVO locator)' (nodeid '28145'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:540, Col:5 - Ln:555, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n testModbusSerialData(int timeout, int retries, String commPortId, int baudRate, int flowControlIn, int flowControlOut, int dataBits, int stopBits, int parity, String encoding, int concurrency, int slaveId, int range, int offset, int length)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:557, Col:5 - Ln:572, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n testModbusSerialData(int timeout, int retries, String commPortId, int baudRate, int flowControlIn, int flowControlOut, int dataBits, int stopBits, int parity, String encoding, int concurrency, int slaveId, int range, int offset, int length)' (nodeid '28159'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:557, Col:5 - Ln:572, Col:6]
+
+Pattern 'LongParamSize' has been found on 'ModbusMaster createModbusSerialMaster(int timeout, int retries, String commPortId, int baudRate, int flowControlIn, int flowControlOut, int dataBits, int stopBits, int parity, String encoding, int concurrency)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:574, Col:5 - Ln:604, Col:6]
+Role 'tooManyParam' fits on 'ModbusMaster createModbusSerialMaster(int timeout, int retries, String commPortId, int baudRate, int flowControlIn, int flowControlOut, int dataBits, int stopBits, int parity, String encoding, int concurrency)' (nodeid '28142'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:574, Col:5 - Ln:604, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveModbusIpDataSource(String name, String xid, int updatePeriods, int updatePeriodType, boolean quantize, int timeout, int retries, boolean contiguousBatches, boolean createSlaveMonitorPoints, int maxReadBitCount, int maxReadRegisterCount, int maxWriteRegisterCount, String transportType, String host, int port, boolean encapsulated)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:610, Col:5 - Ln:635, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveModbusIpDataSource(String name, String xid, int updatePeriods, int updatePeriodType, boolean quantize, int timeout, int retries, boolean contiguousBatches, boolean createSlaveMonitorPoints, int maxReadBitCount, int maxReadRegisterCount, int maxWriteRegisterCount, String transportType, String host, int port, boolean encapsulated)' (nodeid '28187'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:610, Col:5 - Ln:635, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n testModbusIpLocator(int timeout, int retries, String transport, String host, int port, boolean encapsulated, ModbusPointLocatorVO locator)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:645, Col:5 - Ln:652, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n testModbusIpLocator(int timeout, int retries, String transport, String host, int port, boolean encapsulated, ModbusPointLocatorVO locator)' (nodeid '28218'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:645, Col:5 - Ln:652, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n testModbusIpData(int timeout, int retries, String transport, String host, int port, boolean encapsulated, int slaveId, int range, int offset, int length)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:654, Col:5 - Ln:661, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n testModbusIpData(int timeout, int retries, String transport, String host, int port, boolean encapsulated, int slaveId, int range, int offset, int length)' (nodeid '28226'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:654, Col:5 - Ln:661, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveSnmpDataSource(String name, String xid, int updatePeriods, int updatePeriodType, String host, int port, int snmpVersion, String community, String securityName, String authProtocol, String authPassphrase, String privProtocol, String privPassphrase, String engineId, String contextEngineId, String contextName, int retries, int timeout, int trapPort, String localAddress)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:739, Col:5 - Ln:768, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveSnmpDataSource(String name, String xid, int updatePeriods, int updatePeriodType, String host, int port, int snmpVersion, String community, String securityName, String authProtocol, String authPassphrase, String privProtocol, String privPassphrase, String engineId, String contextEngineId, String contextName, int retries, int timeout, int trapPort, String localAddress)' (nodeid '28277'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:739, Col:5 - Ln:768, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void snmpGetOid(String oid, String host, int port, int snmpVersion, String community, String securityName, String authProtocol, String authPassphrase, String privProtocol, String privPassphrase, String engineId, String contextEngineId, String contextName, int retries, int timeout)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:775, Col:5 - Ln:785, Col:6]
+Role 'tooManyParam' fits on 'void snmpGetOid(String oid, String host, int port, int snmpVersion, String community, String securityName, String authProtocol, String authPassphrase, String privProtocol, String privPassphrase, String engineId, String contextEngineId, String contextName, int retries, int timeout)' (nodeid '28325'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:775, Col:5 - Ln:785, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveSqlDataSource(String name, String xid, int updatePeriods, int updatePeriodType, String driverClassname, String connectionUrl, String username, String password, String selectStatement, boolean rowBasedQuery)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:799, Col:5 - Ln:817, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveSqlDataSource(String name, String xid, int updatePeriods, int updatePeriodType, String driverClassname, String connectionUrl, String username, String password, String selectStatement, boolean rowBasedQuery)' (nodeid '28346'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:799, Col:5 - Ln:817, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveOneWireDataSource(String name, String xid, String commPortId, int updatePeriodType, int updatePeriods, int rescanPeriodType, int rescanPeriods)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:907, Col:5 - Ln:921, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveOneWireDataSource(String name, String xid, String commPortId, int updatePeriodType, int updatePeriods, int rescanPeriodType, int rescanPeriods)' (nodeid '28415'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:907, Col:5 - Ln:921, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveBACnetIpDataSource(String name, String xid, int updatePeriods, int updatePeriodType, int deviceId, String broadcastAddress, int port, int timeout, int segTimeout, int segWindow, int retries, int covSubscriptionTimeoutMinutes, int maxReadMultipleReferencesSegmented, int maxReadMultipleReferencesNonsegmented)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1101, Col:5 - Ln:1124, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveBACnetIpDataSource(String name, String xid, int updatePeriods, int updatePeriodType, int deviceId, String broadcastAddress, int port, int timeout, int segTimeout, int segWindow, int retries, int covSubscriptionTimeoutMinutes, int maxReadMultipleReferencesSegmented, int maxReadMultipleReferencesNonsegmented)' (nodeid '28484'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1101, Col:5 - Ln:1124, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void sendBACnetWhoIs(int deviceId, String broadcastAddress, int port, int timeout, int segTimeout, int segWindow, int retries, int whoIsPort, int maxReadMultipleReferencesSegmented, int maxReadMultipleReferencesNonsegmented)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1131, Col:5 - Ln:1142, Col:6]
+Role 'tooManyParam' fits on 'void sendBACnetWhoIs(int deviceId, String broadcastAddress, int port, int timeout, int segTimeout, int segWindow, int retries, int whoIsPort, int maxReadMultipleReferencesSegmented, int maxReadMultipleReferencesNonsegmented)' (nodeid '28520'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1131, Col:5 - Ln:1142, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n sendObjectListRequest(int deviceId, String broadcastAddress, int port, int timeout, int segTimeout, int segWindow, int retries, int maxReadMultipleReferencesSegmented, int maxReadMultipleReferencesNonsegmented, String remoteIp, int remotePort, int networkNumber, String networkAddress, int remoteDeviceId)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1165, Col:5 - Ln:1212, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n sendObjectListRequest(int deviceId, String broadcastAddress, int port, int timeout, int segTimeout, int segWindow, int retries, int maxReadMultipleReferencesSegmented, int maxReadMultipleReferencesNonsegmented, String remoteIp, int remotePort, int networkNumber, String networkAddress, int remoteDeviceId)' (nodeid '28537'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1165, Col:5 - Ln:1212, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveHttpRetrieverDataSource(String name, String xid, int updatePeriods, int updatePeriodType, String url, int timeoutSeconds, int retries)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1243, Col:5 - Ln:1257, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveHttpRetrieverDataSource(String name, String xid, int updatePeriods, int updatePeriodType, String url, int timeoutSeconds, int retries)' (nodeid '28576'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1243, Col:5 - Ln:1257, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n savePop3DataSource(String name, String xid, int updatePeriods, int updatePeriodType, String pop3Server, String username, String password)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1337, Col:5 - Ln:1351, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n savePop3DataSource(String name, String xid, int updatePeriods, int updatePeriodType, String pop3Server, String username, String password)' (nodeid '28632'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1337, Col:5 - Ln:1351, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveGalilDataSource(String name, String xid, String host, int port, int timeout, int retries, int updatePeriods, int updatePeriodType)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1437, Col:5 - Ln:1452, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveGalilDataSource(String name, String xid, String host, int port, int timeout, int retries, int updatePeriods, int updatePeriodType)' (nodeid '28690'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1437, Col:5 - Ln:1452, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveEBI25DataSource(String name, String xid, int updatePeriods, int updatePeriodType, int timeout, int retries, String host, int port, boolean keepAlive)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1483, Col:5 - Ln:1499, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveEBI25DataSource(String name, String xid, int updatePeriods, int updatePeriodType, int timeout, int retries, String host, int port, boolean keepAlive)' (nodeid '28723'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1483, Col:5 - Ln:1499, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveViconicsDataSource(String name, String xid, String commPortId, int panId, int channel, int timeout, int retries, int networkTimeoutSeconds, int deviceWarningTimeoutSeconds, int deviceRemoveTimeoutSeconds, int pointValueMinimumFreshnessSeconds, boolean convertToCelsius)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1587, Col:5 - Ln:1607, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveViconicsDataSource(String name, String xid, String commPortId, int panId, int channel, int timeout, int retries, int networkTimeoutSeconds, int deviceWarningTimeoutSeconds, int deviceRemoveTimeoutSeconds, int pointValueMinimumFreshnessSeconds, boolean convertToCelsius)' (nodeid '28785'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1587, Col:5 - Ln:1607, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveMBusDataSourceConnection(String name, String xid, String connectionType, String commPortId, String phonenumber, int baudRate, int flowControlIn, int flowControlOut, int dataBits, int stopBits, int parity, int updatePeriodType, int updatePeriods)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1666, Col:5 - Ln:1685, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveMBusDataSourceConnection(String name, String xid, String connectionType, String commPortId, String phonenumber, int baudRate, int flowControlIn, int flowControlOut, int dataBits, int stopBits, int parity, int updatePeriodType, int updatePeriods)' (nodeid '28826'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1666, Col:5 - Ln:1685, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void searchMBusByPrimaryAddressing(String commPortId, String phonenumber, int baudrate, int flowControlIn, int flowcontrolOut, int dataBits, int stopBits, int parity, String firstPrimaryAddress, String lastPrimaryAddress)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1691, Col:5 - Ln:1701, Col:6]
+Role 'tooManyParam' fits on 'void searchMBusByPrimaryAddressing(String commPortId, String phonenumber, int baudrate, int flowControlIn, int flowcontrolOut, int dataBits, int stopBits, int parity, String firstPrimaryAddress, String lastPrimaryAddress)' (nodeid '28860'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1691, Col:5 - Ln:1701, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void searchMBusBySecondaryAddressing(String commPortId, String phonenumber, int baudrate, int flowControlIn, int flowcontrolOut, int dataBits, int stopBits, int parity)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1703, Col:5 - Ln:1711, Col:6]
+Role 'tooManyParam' fits on 'void searchMBusBySecondaryAddressing(String commPortId, String phonenumber, int baudrate, int flowControlIn, int flowcontrolOut, int dataBits, int stopBits, int parity)' (nodeid '28872'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1703, Col:5 - Ln:1711, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveOpenV4JDataSource(String name, String xid, String commPortId, int updatePeriodType, int updatePeriods, String device, String protocol)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1804, Col:5 - Ln:1816, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveOpenV4JDataSource(String name, String xid, String commPortId, int updatePeriodType, int updatePeriods, String device, String protocol)' (nodeid '28922'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1804, Col:5 - Ln:1816, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveDNP3IpDataSource(String name, String xid, int sourceAddress, int slaveAddress, String host, int port, int staticPollPeriods, int rbePollPeriods, int rbePeriodType, int timeout, int retries)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1876, Col:5 - Ln:1896, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveDNP3IpDataSource(String name, String xid, int sourceAddress, int slaveAddress, String host, int port, int staticPollPeriods, int rbePollPeriods, int rbePeriodType, int timeout, int retries)' (nodeid '28954'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1876, Col:5 - Ln:1896, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveDNP3SerialDataSource(String name, String xid, int sourceAddress, int slaveAddress, String commPortId, int baudRate, int staticPollPeriods, int rbePollPeriods, int rbePeriodType, int timeout, int retries)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1898, Col:5 - Ln:1917, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveDNP3SerialDataSource(String name, String xid, int sourceAddress, int slaveAddress, String commPortId, int baudRate, int staticPollPeriods, int rbePollPeriods, int rbePeriodType, int timeout, int retries)' (nodeid '28979'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1898, Col:5 - Ln:1917, Col:6]
+
+Pattern 'LongFunction' has been found on 'DwrResponseI18n validateMultipleDnp3Points(String[] names, int[] index, Dnp3PointLocatorVO[] locators, DataPointDefaulter defaulter)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1949, Col:5 - Ln:1997, Col:6]
+Role 'longFunc' fits on 'DwrResponseI18n validateMultipleDnp3Points(String[] names, int[] index, Dnp3PointLocatorVO[] locators, DataPointDefaulter defaulter)' (nodeid '29006'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:1949, Col:5 - Ln:1997, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n savePachubeDataSource(String name, String xid, String apiKey, int updatePeriods, int updatePeriodType, int timeoutSeconds, int retries)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:2003, Col:5 - Ln:2017, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n savePachubeDataSource(String name, String xid, String apiKey, int updatePeriods, int updatePeriodType, int timeoutSeconds, int retries)' (nodeid '29014'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:2003, Col:5 - Ln:2017, Col:6]
+
+Pattern 'LongParamSize' has been found on 'String testPachubeValueParams(String apiKey, int timeoutSeconds, int retries, int feedId, String dataStreamId, int dataTypeId, String binary0Value)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:2024, Col:5 - Ln:2045, Col:6]
+Role 'tooManyParam' fits on 'String testPachubeValueParams(String apiKey, int timeoutSeconds, int retries, int feedId, String dataStreamId, int dataTypeId, String binary0Value)' (nodeid '29036'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:2024, Col:5 - Ln:2045, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveOPCDataSource(String name, String xid, String host, String domain, String user, String password, String server, int updatePeriods, int updatePeriodType)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:2074, Col:5 - Ln:2090, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveOPCDataSource(String name, String xid, String host, String domain, String user, String password, String server, int updatePeriods, int updatePeriodType)' (nodeid '29062'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:2074, Col:5 - Ln:2090, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveJmxDataSource(String name, String xid, boolean useLocalServer, String remoteServerAddr, int updatePeriodType, int updatePeriods, boolean quantize)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:2177, Col:5 - Ln:2191, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveJmxDataSource(String name, String xid, boolean useLocalServer, String remoteServerAddr, int updatePeriodType, int updatePeriods, boolean quantize)' (nodeid '29118'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:2177, Col:5 - Ln:2191, Col:6]
+
+Pattern 'LongFunction' has been found on 'DwrResponseI18n getJmxObjectNames(boolean useLocalServer, String remoteServerAddr)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:2198, Col:5 - Ln:2279, Col:6]
+Role 'longFunc' fits on 'DwrResponseI18n getJmxObjectNames(boolean useLocalServer, String remoteServerAddr)' (nodeid '29140'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java [Ln:2198, Col:5 - Ln:2279, Col:6]
+
+Pattern 'LongFunction' has been found on 'String createExportData(int prettyIndent, boolean graphicalViews, boolean eventHandlers, boolean dataSources, boolean dataPoints, boolean scheduledEvents, boolean compoundEventDetectors, boolean pointLinks, boolean users, boolean pointHierarchy, boolean mailingLists, boolean publishers, boolean watchLists, boolean maintenanceEvents)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EmportDwr.java [Ln:71, Col:5 - Ln:121, Col:6]
+Role 'longFunc' fits on 'String createExportData(int prettyIndent, boolean graphicalViews, boolean eventHandlers, boolean dataSources, boolean dataPoints, boolean scheduledEvents, boolean compoundEventDetectors, boolean pointLinks, boolean users, boolean pointHierarchy, boolean mailingLists, boolean publishers, boolean watchLists, boolean maintenanceEvents)' (nodeid '29193'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EmportDwr.java [Ln:71, Col:5 - Ln:121, Col:6]
+
+Pattern 'LongParamSize' has been found on 'String createExportData(int prettyIndent, boolean graphicalViews, boolean eventHandlers, boolean dataSources, boolean dataPoints, boolean scheduledEvents, boolean compoundEventDetectors, boolean pointLinks, boolean users, boolean pointHierarchy, boolean mailingLists, boolean publishers, boolean watchLists, boolean maintenanceEvents)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EmportDwr.java [Ln:71, Col:5 - Ln:121, Col:6]
+Role 'tooManyParam' fits on 'String createExportData(int prettyIndent, boolean graphicalViews, boolean eventHandlers, boolean dataSources, boolean dataPoints, boolean scheduledEvents, boolean compoundEventDetectors, boolean pointLinks, boolean users, boolean pointHierarchy, boolean mailingLists, boolean publishers, boolean watchLists, boolean maintenanceEvents)' (nodeid '29193'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EmportDwr.java [Ln:71, Col:5 - Ln:121, Col:6]
+
+Pattern 'LongFunction' has been found on 'Map<String, Object> getInitData()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EventHandlersDwr.java [Ln:72, Col:5 - Ln:202, Col:6]
+Role 'longFunc' fits on 'Map<String, Object> getInitData()' (nodeid '29234'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EventHandlersDwr.java [Ln:72, Col:5 - Ln:202, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveSetPointEventHandler(int eventSourceId, int eventTypeRef1, int eventTypeRef2, int handlerId, String xid, String alias, boolean disabled, int targetPointId, int activeAction, String activeValueToSet, int activePointId, int inactiveAction, String inactiveValueToSet, int inactivePointId)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EventHandlersDwr.java [Ln:220, Col:5 - Ln:234, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveSetPointEventHandler(int eventSourceId, int eventTypeRef1, int eventTypeRef2, int handlerId, String xid, String alias, boolean disabled, int targetPointId, int activeAction, String activeValueToSet, int activePointId, int inactiveAction, String inactiveValueToSet, int inactivePointId)' (nodeid '29252'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EventHandlersDwr.java [Ln:220, Col:5 - Ln:234, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveEmailEventHandler(int eventSourceId, int eventTypeRef1, int eventTypeRef2, int handlerId, String xid, String alias, boolean disabled, List<RecipientListEntryBean> activeRecipients, boolean sendEscalation, int escalationDelayType, int escalationDelay, List<RecipientListEntryBean> escalationRecipients, boolean sendInactive, boolean inactiveOverride, List<RecipientListEntryBean> inactiveRecipients)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EventHandlersDwr.java [Ln:236, Col:5 - Ln:252, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveEmailEventHandler(int eventSourceId, int eventTypeRef1, int eventTypeRef2, int handlerId, String xid, String alias, boolean disabled, List<RecipientListEntryBean> activeRecipients, boolean sendEscalation, int escalationDelayType, int escalationDelay, List<RecipientListEntryBean> escalationRecipients, boolean sendInactive, boolean inactiveOverride, List<RecipientListEntryBean> inactiveRecipients)' (nodeid '29272'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EventHandlersDwr.java [Ln:236, Col:5 - Ln:252, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveProcessEventHandler(int eventSourceId, int eventTypeRef1, int eventTypeRef2, int handlerId, String xid, String alias, boolean disabled, String activeProcessCommand, String inactiveProcessCommand)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EventHandlersDwr.java [Ln:254, Col:5 - Ln:262, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveProcessEventHandler(int eventSourceId, int eventTypeRef1, int eventTypeRef2, int handlerId, String xid, String alias, boolean disabled, String activeProcessCommand, String inactiveProcessCommand)' (nodeid '29290'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EventHandlersDwr.java [Ln:254, Col:5 - Ln:262, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n save(int eventSourceId, int eventTypeRef1, int eventTypeRef2, EventHandlerVO vo, int handlerId, String xid, String alias, boolean disabled)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EventHandlersDwr.java [Ln:264, Col:5 - Ln:284, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n save(int eventSourceId, int eventTypeRef1, int eventTypeRef2, EventHandlerVO vo, int handlerId, String xid, String alias, boolean disabled)' (nodeid '29270'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EventHandlersDwr.java [Ln:264, Col:5 - Ln:284, Col:6]
+
+Pattern 'LongFunction' has been found on 'DwrResponseI18n search(int eventId, int eventSourceType, String status, int alarmLevel, String keywordStr, int page, Date date)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EventsDwr.java [Ln:50, Col:5 - Ln:129, Col:6]
+Role 'longFunc' fits on 'DwrResponseI18n search(int eventId, int eventSourceType, String status, int alarmLevel, String keywordStr, int page, Date date)' (nodeid '29323'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EventsDwr.java [Ln:50, Col:5 - Ln:129, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n search(int eventId, int eventSourceType, String status, int alarmLevel, String keywordStr, int page, Date date)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EventsDwr.java [Ln:50, Col:5 - Ln:129, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n search(int eventId, int eventSourceType, String status, int alarmLevel, String keywordStr, int page, Date date)' (nodeid '29323'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\EventsDwr.java [Ln:50, Col:5 - Ln:129, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveMaintenanceEvent(int id, String xid, int dataSourceId, String alias, int alarmLevel, int scheduleType, boolean disabled, int activeYear, int activeMonth, int activeDay, int activeHour, int activeMinute, int activeSecond, String activeCron, int inactiveYear, int inactiveMonth, int inactiveDay, int inactiveHour, int inactiveMinute, int inactiveSecond, String inactiveCron)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\MaintenanceEventsDwr.java [Ln:99, Col:5 - Ln:145, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveMaintenanceEvent(int id, String xid, int dataSourceId, String alias, int alarmLevel, int scheduleType, boolean disabled, int activeYear, int activeMonth, int activeDay, int activeHour, int activeMinute, int activeSecond, String activeCron, int inactiveYear, int inactiveMonth, int inactiveDay, int inactiveHour, int inactiveMinute, int inactiveSecond, String inactiveCron)' (nodeid '29563'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\MaintenanceEventsDwr.java [Ln:99, Col:5 - Ln:145, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void jsError(String desc, String page, String line, String browserName, String browserVersion, String osName, String location)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\MiscDwr.java [Ln:191, Col:5 - Ln:196, Col:6]
+Role 'tooManyParam' fits on 'void jsError(String desc, String page, String line, String browserName, String browserVersion, String osName, String location)' (nodeid '29641'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\MiscDwr.java [Ln:191, Col:5 - Ln:196, Col:6]
+
+Pattern 'LongFunction' has been found on 'Map<String, Object> doLongPoll(int pollSessionId)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\MiscDwr.java [Ln:282, Col:5 - Ln:442, Col:6]
+Role 'longFunc' fits on 'Map<String, Object> doLongPoll(int pollSessionId)' (nodeid '29680'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\MiscDwr.java [Ln:282, Col:5 - Ln:442, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n savePointLink(int id, String xid, int sourcePointId, int targetPointId, String script, int event, boolean disabled)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\PointLinksDwr.java [Ln:103, Col:5 - Ln:132, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n savePointLink(int id, String xid, int sourcePointId, int targetPointId, String script, int event, boolean disabled)' (nodeid '29793'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\PointLinksDwr.java [Ln:103, Col:5 - Ln:132, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveHttpSender(String name, String xid, boolean enabled, List<HttpPointVO> points, String url, boolean usePost, List<KeyValuePair> staticHeaders, List<KeyValuePair> staticParameters, int cacheWarningSize, boolean changesOnly, boolean raiseResultWarning, int dateFormat, boolean sendSnapshot, int snapshotSendPeriods, int snapshotSendPeriodType)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\PublisherEditDwr.java [Ln:82, Col:5 - Ln:105, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveHttpSender(String name, String xid, boolean enabled, List<HttpPointVO> points, String url, boolean usePost, List<KeyValuePair> staticHeaders, List<KeyValuePair> staticParameters, int cacheWarningSize, boolean changesOnly, boolean raiseResultWarning, int dateFormat, boolean sendSnapshot, int snapshotSendPeriods, int snapshotSendPeriodType)' (nodeid '29816'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\PublisherEditDwr.java [Ln:82, Col:5 - Ln:105, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n savePachubeSender(String name, String xid, boolean enabled, List<PachubePointVO> points, String apiKey, int timeoutSeconds, int retries, int cacheWarningSize, boolean changesOnly, boolean sendSnapshot, int snapshotSendPeriods, int snapshotSendPeriodType)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\PublisherEditDwr.java [Ln:123, Col:5 - Ln:142, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n savePachubeSender(String name, String xid, boolean enabled, List<PachubePointVO> points, String apiKey, int timeoutSeconds, int retries, int cacheWarningSize, boolean changesOnly, boolean sendSnapshot, int snapshotSendPeriods, int snapshotSendPeriodType)' (nodeid '29863'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\PublisherEditDwr.java [Ln:123, Col:5 - Ln:142, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n savePersistentSender(String name, String xid, boolean enabled, List<PersistentPointVO> points, String host, int port, String authorizationKey, String xidPrefix, int syncType, int cacheWarningSize, boolean changesOnly, boolean sendSnapshot, int snapshotSendPeriods, int snapshotSendPeriodType)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\PublisherEditDwr.java [Ln:148, Col:5 - Ln:170, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n savePersistentSender(String name, String xid, boolean enabled, List<PersistentPointVO> points, String host, int port, String authorizationKey, String xidPrefix, int syncType, int cacheWarningSize, boolean changesOnly, boolean sendSnapshot, int snapshotSendPeriods, int snapshotSendPeriodType)' (nodeid '29886'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\PublisherEditDwr.java [Ln:148, Col:5 - Ln:170, Col:6]
+
+Pattern 'LongFunction' has been found on 'DwrResponseI18n saveReport(int id, String name, List<ReportPointVO> points, int includeEvents, boolean includeUserComments, int dateRangeType, int relativeDateType, int previousPeriodCount, int previousPeriodType, int pastPeriodCount, int pastPeriodType, boolean fromNone, int fromYear, int fromMonth, int fromDay, int fromHour, int fromMinute, boolean toNone, int toYear, int toMonth, int toDay, int toHour, int toMinute, boolean schedule, int schedulePeriod, int runDelayMinutes, String scheduleCron, boolean email, boolean includeData, boolean zipData, List<RecipientListEntryBean> recipients)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ReportsDwr.java [Ln:84, Col:5 - Ln:174, Col:6]
+Role 'longFunc' fits on 'DwrResponseI18n saveReport(int id, String name, List<ReportPointVO> points, int includeEvents, boolean includeUserComments, int dateRangeType, int relativeDateType, int previousPeriodCount, int previousPeriodType, int pastPeriodCount, int pastPeriodType, boolean fromNone, int fromYear, int fromMonth, int fromDay, int fromHour, int fromMinute, boolean toNone, int toYear, int toMonth, int toDay, int toHour, int toMinute, boolean schedule, int schedulePeriod, int runDelayMinutes, String scheduleCron, boolean email, boolean includeData, boolean zipData, List<RecipientListEntryBean> recipients)' (nodeid '29943'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ReportsDwr.java [Ln:84, Col:5 - Ln:174, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveReport(int id, String name, List<ReportPointVO> points, int includeEvents, boolean includeUserComments, int dateRangeType, int relativeDateType, int previousPeriodCount, int previousPeriodType, int pastPeriodCount, int pastPeriodType, boolean fromNone, int fromYear, int fromMonth, int fromDay, int fromHour, int fromMinute, boolean toNone, int toYear, int toMonth, int toDay, int toHour, int toMinute, boolean schedule, int schedulePeriod, int runDelayMinutes, String scheduleCron, boolean email, boolean includeData, boolean zipData, List<RecipientListEntryBean> recipients)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ReportsDwr.java [Ln:84, Col:5 - Ln:174, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveReport(int id, String name, List<ReportPointVO> points, int includeEvents, boolean includeUserComments, int dateRangeType, int relativeDateType, int previousPeriodCount, int previousPeriodType, int pastPeriodCount, int pastPeriodType, boolean fromNone, int fromYear, int fromMonth, int fromDay, int fromHour, int fromMinute, boolean toNone, int toYear, int toMonth, int toDay, int toHour, int toMinute, boolean schedule, int schedulePeriod, int runDelayMinutes, String scheduleCron, boolean email, boolean includeData, boolean zipData, List<RecipientListEntryBean> recipients)' (nodeid '29943'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ReportsDwr.java [Ln:84, Col:5 - Ln:174, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n runReport(String name, List<ReportPointVO> points, int includeEvents, boolean includeUserComments, int dateRangeType, int relativeDateType, int previousPeriodCount, int previousPeriodType, int pastPeriodCount, int pastPeriodType, boolean fromNone, int fromYear, int fromMonth, int fromDay, int fromHour, int fromMinute, boolean toNone, int toYear, int toMonth, int toDay, int toHour, int toMinute, boolean email, boolean includeData, boolean zipData, List<RecipientListEntryBean> recipients)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ReportsDwr.java [Ln:176, Col:5 - Ln:221, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n runReport(String name, List<ReportPointVO> points, int includeEvents, boolean includeUserComments, int dateRangeType, int relativeDateType, int previousPeriodCount, int previousPeriodType, int pastPeriodCount, int pastPeriodType, boolean fromNone, int fromYear, int fromMonth, int fromDay, int fromHour, int fromMinute, boolean toNone, int toYear, int toMonth, int toDay, int toHour, int toMinute, boolean email, boolean includeData, boolean zipData, List<RecipientListEntryBean> recipients)' (nodeid '30007'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ReportsDwr.java [Ln:176, Col:5 - Ln:221, Col:6]
+
+Pattern 'LongFunction' has been found on 'void validateData(DwrResponseI18n response, String name, List<ReportPointVO> points, int dateRangeType, int relativeDateType, int previousPeriodCount, int pastPeriodCount)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ReportsDwr.java [Ln:234, Col:5 - Ln:265, Col:6]
+Role 'longFunc' fits on 'void validateData(DwrResponseI18n response, String name, List<ReportPointVO> points, int dateRangeType, int relativeDateType, int previousPeriodCount, int pastPeriodCount)' (nodeid '29975'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ReportsDwr.java [Ln:234, Col:5 - Ln:265, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void validateData(DwrResponseI18n response, String name, List<ReportPointVO> points, int dateRangeType, int relativeDateType, int previousPeriodCount, int pastPeriodCount)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ReportsDwr.java [Ln:234, Col:5 - Ln:265, Col:6]
+Role 'tooManyParam' fits on 'void validateData(DwrResponseI18n response, String name, List<ReportPointVO> points, int dateRangeType, int relativeDateType, int previousPeriodCount, int pastPeriodCount)' (nodeid '29975'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ReportsDwr.java [Ln:234, Col:5 - Ln:265, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveScheduledEvent(int id, String xid, String alias, int alarmLevel, int scheduleType, boolean returnToNormal, boolean disabled, int activeYear, int activeMonth, int activeDay, int activeHour, int activeMinute, int activeSecond, String activeCron, int inactiveYear, int inactiveMonth, int inactiveDay, int inactiveHour, int inactiveMinute, int inactiveSecond, String inactiveCron)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ScheduledEventsDwr.java [Ln:63, Col:5 - Ln:109, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveScheduledEvent(int id, String xid, String alias, int alarmLevel, int scheduleType, boolean returnToNormal, boolean disabled, int activeYear, int activeMonth, int activeDay, int activeHour, int activeMinute, int activeSecond, String activeCron, int inactiveYear, int inactiveMonth, int inactiveDay, int inactiveHour, int inactiveMinute, int inactiveSecond, String inactiveCron)' (nodeid '30071'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ScheduledEventsDwr.java [Ln:63, Col:5 - Ln:109, Col:6]
+
+Pattern 'featureEnvy' has been found on 'Map<String, Object> getSettings()'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\SystemSettingsDwr.java [Ln:52, Col:5 - Ln:128, Col:6]
+Role 'envyMethod' fits on 'Map<String, Object> getSettings()' (nodeid '30099'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\SystemSettingsDwr.java [Ln:52, Col:5 - Ln:128, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void saveEmailSettings(String host, int port, String from, String name, boolean auth, String username, String password, boolean tls, int contentType)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\SystemSettingsDwr.java [Ln:167, Col:5 - Ln:181, Col:6]
+Role 'envyMethod' fits on 'void saveEmailSettings(String host, int port, String from, String name, boolean auth, String username, String password, boolean tls, int contentType)' (nodeid '30106'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\SystemSettingsDwr.java [Ln:167, Col:5 - Ln:181, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void saveEmailSettings(String host, int port, String from, String name, boolean auth, String username, String password, boolean tls, int contentType)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\SystemSettingsDwr.java [Ln:167, Col:5 - Ln:181, Col:6]
+Role 'tooManyParam' fits on 'void saveEmailSettings(String host, int port, String from, String name, boolean auth, String username, String password, boolean tls, int contentType)' (nodeid '30106'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\SystemSettingsDwr.java [Ln:167, Col:5 - Ln:181, Col:6]
+
+Pattern 'LongParamSize' has been found on 'Map<String, Object> sendTestEmail(String host, int port, String from, String name, boolean auth, String username, String password, boolean tls, int contentType)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\SystemSettingsDwr.java [Ln:183, Col:5 - Ln:208, Col:6]
+Role 'tooManyParam' fits on 'Map<String, Object> sendTestEmail(String host, int port, String from, String name, boolean auth, String username, String password, boolean tls, int contentType)' (nodeid '30117'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\SystemSettingsDwr.java [Ln:183, Col:5 - Ln:208, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void saveHttpSettings(boolean useProxy, String host, int port, String username, String password)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\SystemSettingsDwr.java [Ln:224, Col:5 - Ln:233, Col:6]
+Role 'envyMethod' fits on 'void saveHttpSettings(boolean useProxy, String host, int port, String username, String password)' (nodeid '30142'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\SystemSettingsDwr.java [Ln:224, Col:5 - Ln:233, Col:6]
+
+Pattern 'featureEnvy' has been found on 'void saveMiscSettings(int eventPurgePeriodType, int eventPurgePeriods, int reportPurgePeriodType, int reportPurgePeriods, int uiPerformance, boolean groveLogging, int futureDateLimitPeriodType, int futureDateLimitPeriods)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\SystemSettingsDwr.java [Ln:235, Col:5 - Ln:249, Col:6]
+Role 'envyMethod' fits on 'void saveMiscSettings(int eventPurgePeriodType, int eventPurgePeriods, int reportPurgePeriodType, int reportPurgePeriods, int uiPerformance, boolean groveLogging, int futureDateLimitPeriodType, int futureDateLimitPeriods)' (nodeid '30148'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\SystemSettingsDwr.java [Ln:235, Col:5 - Ln:249, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void saveMiscSettings(int eventPurgePeriodType, int eventPurgePeriods, int reportPurgePeriodType, int reportPurgePeriods, int uiPerformance, boolean groveLogging, int futureDateLimitPeriodType, int futureDateLimitPeriods)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\SystemSettingsDwr.java [Ln:235, Col:5 - Ln:249, Col:6]
+Role 'tooManyParam' fits on 'void saveMiscSettings(int eventPurgePeriodType, int eventPurgePeriods, int reportPurgePeriodType, int reportPurgePeriods, int uiPerformance, boolean groveLogging, int futureDateLimitPeriodType, int futureDateLimitPeriods)' (nodeid '30148'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\SystemSettingsDwr.java [Ln:235, Col:5 - Ln:249, Col:6]
+
+Pattern 'LongFunction' has been found on 'DwrResponseI18n saveUserAdmin(int id, String username, String password, String email, String phone, boolean admin, boolean disabled, int receiveAlarmEmails, boolean receiveOwnAuditEvents, List<Integer> dataSourcePermissions, List<DataPointAccess> dataPointPermissions)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\UsersDwr.java [Ln:99, Col:5 - Ln:157, Col:6]
+Role 'longFunc' fits on 'DwrResponseI18n saveUserAdmin(int id, String username, String password, String email, String phone, boolean admin, boolean disabled, int receiveAlarmEmails, boolean receiveOwnAuditEvents, List<Integer> dataSourcePermissions, List<DataPointAccess> dataPointPermissions)' (nodeid '30181'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\UsersDwr.java [Ln:99, Col:5 - Ln:157, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveUserAdmin(int id, String username, String password, String email, String phone, boolean admin, boolean disabled, int receiveAlarmEmails, boolean receiveOwnAuditEvents, List<Integer> dataSourcePermissions, List<DataPointAccess> dataPointPermissions)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\UsersDwr.java [Ln:99, Col:5 - Ln:157, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveUserAdmin(int id, String username, String password, String email, String phone, boolean admin, boolean disabled, int receiveAlarmEmails, boolean receiveOwnAuditEvents, List<Integer> dataSourcePermissions, List<DataPointAccess> dataPointPermissions)' (nodeid '30181'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\UsersDwr.java [Ln:99, Col:5 - Ln:157, Col:6]
+
+Pattern 'LongFunction' has been found on 'List<ViewComponentState> getViewPointData(User user, View view, boolean edit)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ViewDwr.java [Ln:118, Col:5 - Ln:176, Col:6]
+Role 'longFunc' fits on 'List<ViewComponentState> getViewPointData(User user, View view, boolean edit)' (nodeid '30261'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ViewDwr.java [Ln:118, Col:5 - Ln:176, Col:6]
+
+Pattern 'LongFunction' has been found on 'void addPointComponentState(ViewComponent viewComponent, RuntimeManager rtm, Map<String, Object> model, HttpServletRequest request, View view, User user, List<ViewComponentState> states, boolean edit, boolean add)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ViewDwr.java [Ln:178, Col:5 - Ln:205, Col:6]
+Role 'longFunc' fits on 'void addPointComponentState(ViewComponent viewComponent, RuntimeManager rtm, Map<String, Object> model, HttpServletRequest request, View view, User user, List<ViewComponentState> states, boolean edit, boolean add)' (nodeid '30277'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ViewDwr.java [Ln:178, Col:5 - Ln:205, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void addPointComponentState(ViewComponent viewComponent, RuntimeManager rtm, Map<String, Object> model, HttpServletRequest request, View view, User user, List<ViewComponentState> states, boolean edit, boolean add)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ViewDwr.java [Ln:178, Col:5 - Ln:205, Col:6]
+Role 'tooManyParam' fits on 'void addPointComponentState(ViewComponent viewComponent, RuntimeManager rtm, Map<String, Object> model, HttpServletRequest request, View view, User user, List<ViewComponentState> states, boolean edit, boolean add)' (nodeid '30277'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ViewDwr.java [Ln:178, Col:5 - Ln:205, Col:6]
+
+Pattern 'LongParamSize' has been found on 'DwrResponseI18n saveImageChartComponent(String viewComponentId, String name, int width, int height, int durationType, int durationPeriods, List<KeyValuePair> childPointIds)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ViewDwr.java [Ln:585, Col:5 - Ln:611, Col:6]
+Role 'tooManyParam' fits on 'DwrResponseI18n saveImageChartComponent(String viewComponentId, String name, int width, int height, int durationType, int durationPeriods, List<KeyValuePair> childPointIds)' (nodeid '30411'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ViewDwr.java [Ln:585, Col:5 - Ln:611, Col:6]
+
+Pattern 'LongParamSize' has been found on 'String getImageChartData(int[] pointIds, int fromYear, int fromMonth, int fromDay, int fromHour, int fromMinute, int fromSecond, boolean fromNone, int toYear, int toMonth, int toDay, int toHour, int toMinute, int toSecond, boolean toNone, int width, int height)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\WatchListDwr.java [Ln:305, Col:5 - Ln:343, Col:6]
+Role 'tooManyParam' fits on 'String getImageChartData(int[] pointIds, int fromYear, int fromMonth, int fromDay, int fromHour, int fromMinute, int fromSecond, boolean fromNone, int toYear, int toMonth, int toDay, int toHour, int toMinute, int toSecond, boolean toNone, int width, int height)' (nodeid '30490'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\WatchListDwr.java [Ln:305, Col:5 - Ln:343, Col:6]
+
+Pattern 'LongParamSize' has been found on 'void getChartData(int[] pointIds, int fromYear, int fromMonth, int fromDay, int fromHour, int fromMinute, int fromSecond, boolean fromNone, int toYear, int toMonth, int toDay, int toHour, int toMinute, int toSecond, boolean toNone)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\WatchListDwr.java [Ln:431, Col:5 - Ln:439, Col:6]
+Role 'tooManyParam' fits on 'void getChartData(int[] pointIds, int fromYear, int fromMonth, int fromDay, int fromHour, int fromMinute, int fromSecond, boolean fromNone, int toYear, int toMonth, int toDay, int toHour, int toMinute, int toSecond, boolean toNone)' (nodeid '30525'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\WatchListDwr.java [Ln:431, Col:5 - Ln:439, Col:6]
+
+Pattern 'LongFunction' has been found on 'void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\email\SubjectDirective.java [Ln:36, Col:5 - Ln:97, Col:6]
+Role 'longFunc' fits on 'void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body)' (nodeid '30587'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\email\SubjectDirective.java [Ln:36, Col:5 - Ln:97, Col:6]
+
+Pattern 'LongFunction' has been found on 'ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\mvc\controller\DataPointDetailsController.java [Ln:48, Col:5 - Ln:141, Col:6]
+Role 'longFunc' fits on 'ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response)' (nodeid '30789'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\mvc\controller\DataPointDetailsController.java [Ln:48, Col:5 - Ln:141, Col:6]
+
+Pattern 'LongFunction' has been found on 'void onBindAndValidate(HttpServletRequest request, Object command, BindException errors)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\mvc\controller\DataPointEditController.java [Ln:121, Col:5 - Ln:208, Col:6]
+Role 'longFunc' fits on 'void onBindAndValidate(HttpServletRequest request, Object command, BindException errors)' (nodeid '30840'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\mvc\controller\DataPointEditController.java [Ln:121, Col:5 - Ln:208, Col:6]
+
+Pattern 'LongFunction' has been found on 'ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\mvc\controller\DataSourceEditController.java [Ln:45, Col:5 - Ln:118, Col:6]
+Role 'longFunc' fits on 'ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response)' (nodeid '30863'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\mvc\controller\DataSourceEditController.java [Ln:45, Col:5 - Ln:118, Col:6]
+
+Pattern 'LongFunction' has been found on 'Map<String, Object> createModel(HttpServletRequest request)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\mvc\controller\WatchListController.java [Ln:51, Col:5 - Ln:106, Col:6]
+Role 'longFunc' fits on 'Map<String, Object> createModel(HttpServletRequest request)' (nodeid '31001'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\mvc\controller\WatchListController.java [Ln:51, Col:5 - Ln:106, Col:6]
+
+Pattern 'LongFunction' has been found on 'byte[] getImageData(String imageInfo, HttpServletRequest request)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\servlet\AsyncImageChartServlet.java [Ln:58, Col:5 - Ln:165, Col:6]
+Role 'longFunc' fits on 'byte[] getImageData(String imageInfo, HttpServletRequest request)' (nodeid '31330'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\servlet\AsyncImageChartServlet.java [Ln:58, Col:5 - Ln:165, Col:6]
+
+Pattern 'LongFunction' has been found on 'void doImpl(HttpServletRequest request, HttpServletResponse response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\servlet\HttpDataSourceServlet.java [Ln:87, Col:5 - Ln:161, Col:6]
+Role 'longFunc' fits on 'void doImpl(HttpServletRequest request, HttpServletResponse response)' (nodeid '31429'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\servlet\HttpDataSourceServlet.java [Ln:87, Col:5 - Ln:161, Col:6]
+
+Pattern 'LongFunction' has been found on 'byte[] getImageData(String imageInfo, HttpServletRequest request)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\servlet\ImageChartServlet.java [Ln:77, Col:5 - Ln:185, Col:6]
+Role 'longFunc' fits on 'byte[] getImageData(String imageInfo, HttpServletRequest request)' (nodeid '31486'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\servlet\ImageChartServlet.java [Ln:77, Col:5 - Ln:185, Col:6]
+
+Pattern 'LongFunction' has been found on 'void doGet(HttpServletRequest request, HttpServletResponse response)'
+Source : C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\servlet\ImageValueServlet.java [Ln:47, Col:5 - Ln:123, Col:6]
+Role 'longFunc' fits on 'void doGet(HttpServletRequest request, HttpServletResponse response)' (nodeid '31509'), C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\servlet\ImageValueServlet.java [Ln:47, Col:5 - Ln:123, Col:6]

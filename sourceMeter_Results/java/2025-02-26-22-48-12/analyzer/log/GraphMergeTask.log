@@ -1,0 +1,11 @@
+[2025-02-26 22:49:12] Start:GraphMergeTask
+GraphMerge 10.2.0 (Build:3aecf906c7) - (C) 2001-2022 FrontEndART Ltd.
+Integrated 3rd party tool(s): SonarQube
+Loading: C:\Users\meet\Desktop\semProject\MyProject\java\2025-02-26-22-48-12\analyzer\graph\MyProject-AndroidHunter.graph
+Merging: C:\Users\meet\Desktop\semProject\MyProject\java\2025-02-26-22-48-12\analyzer\graph\MyProject-DCF.graph
+Merging: C:\Users\meet\Desktop\semProject\MyProject\java\2025-02-26-22-48-12\analyzer\graph\MyProject-FaultHunter.graph
+Merging: C:\Users\meet\Desktop\semProject\MyProject\java\2025-02-26-22-48-12\analyzer\graph\MyProject-PMD.graph
+Merging: C:\Users\meet\Desktop\semProject\MyProject\java\2025-02-26-22-48-12\analyzer\graph\MyProject-RTEHunter.graph
+Merging: C:\Users\meet\Desktop\semProject\MyProject\java\2025-02-26-22-48-12\analyzer\graph\MyProject-metrics.graph
+Saving: C:\Users\meet\Desktop\semProject\MyProject\java\2025-02-26-22-48-12\MyProject.graph
+[2025-02-26 22:49:13] End:GraphMergeTask Result:OK

@@ -1,0 +1,167 @@
+Number of Clone Classes: 38
+
+0~CloneClass [Number of Clone Instances: 2, Lines of Code: 22]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\DataPointVO.java(664): 1~CloneInstance [Ln:664, Col:13 - Ln:685, Col:14]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\DataPointVO.java(691): 2~CloneInstance [Ln:691, Col:13 - Ln:712, Col:14]
+
+3~CloneClass [Number of Clone Instances: 2, Lines of Code: 31]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(548): 4~CloneInstance [Ln:548, Col:13 - Ln:578, Col:44]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(582): 5~CloneInstance [Ln:582, Col:13 - Ln:612, Col:44]
+
+6~CloneClass [Number of Clone Instances: 2, Lines of Code: 31]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(515): 7~CloneInstance [Ln:515, Col:13 - Ln:545, Col:29]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(549): 8~CloneInstance [Ln:549, Col:13 - Ln:579, Col:29]
+
+9~CloneClass [Number of Clone Instances: 3, Lines of Code: 30]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(515): 10~CloneInstance [Ln:515, Col:13 - Ln:544, Col:44]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(549): 11~CloneInstance [Ln:549, Col:13 - Ln:578, Col:44]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(583): 12~CloneInstance [Ln:583, Col:13 - Ln:612, Col:44]
+
+13~CloneClass [Number of Clone Instances: 2, Lines of Code: 26]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(412): 14~CloneInstance [Ln:412, Col:13 - Ln:437, Col:43]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(446): 15~CloneInstance [Ln:446, Col:13 - Ln:471, Col:43]
+
+16~CloneClass [Number of Clone Instances: 2, Lines of Code: 26]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java(364): 17~CloneInstance [Ln:364, Col:17 - Ln:389, Col:18]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java(392): 18~CloneInstance [Ln:392, Col:17 - Ln:417, Col:18]
+
+19~CloneClass [Number of Clone Instances: 2, Lines of Code: 71]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\schedule\ScheduledEventRT.java(136): 20~CloneInstance [Ln:136, Col:9 - Ln:206, Col:28]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\maintenance\MaintenanceEventRT.java(116): 21~CloneInstance [Ln:116, Col:9 - Ln:186, Col:28]
+
+22~CloneClass [Number of Clone Instances: 2, Lines of Code: 32]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ScheduledEventsDwr.java(70): 23~CloneInstance [Ln:70, Col:9 - Ln:101, Col:31]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\MaintenanceEventsDwr.java(105): 24~CloneInstance [Ln:105, Col:9 - Ln:136, Col:30]
+
+25~CloneClass [Number of Clone Instances: 2, Lines of Code: 37]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\onewire\Network.java(225): 26~CloneInstance [Ln:225, Col:9 - Ln:261, Col:10]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\dataSource\onewire\Network.java(300): 27~CloneInstance [Ln:300, Col:9 - Ln:336, Col:10]
+
+28~CloneClass [Number of Clone Instances: 2, Lines of Code: 30]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(448): 29~CloneInstance [Ln:448, Col:13 - Ln:477, Col:29]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(482): 30~CloneInstance [Ln:482, Col:13 - Ln:511, Col:29]
+
+31~CloneClass [Number of Clone Instances: 3, Lines of Code: 24]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(414): 32~CloneInstance [Ln:414, Col:13 - Ln:437, Col:43]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(448): 33~CloneInstance [Ln:448, Col:13 - Ln:471, Col:43]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(482): 34~CloneInstance [Ln:482, Col:13 - Ln:505, Col:43]
+
+35~CloneClass [Number of Clone Instances: 4, Lines of Code: 29]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(449): 36~CloneInstance [Ln:449, Col:13 - Ln:477, Col:29]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(483): 37~CloneInstance [Ln:483, Col:13 - Ln:511, Col:29]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(517): 38~CloneInstance [Ln:517, Col:13 - Ln:545, Col:29]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(551): 39~CloneInstance [Ln:551, Col:13 - Ln:579, Col:29]
+
+40~CloneClass [Number of Clone Instances: 5, Lines of Code: 28]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(449): 41~CloneInstance [Ln:449, Col:13 - Ln:476, Col:44]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(483): 42~CloneInstance [Ln:483, Col:13 - Ln:510, Col:44]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(517): 43~CloneInstance [Ln:517, Col:13 - Ln:544, Col:44]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(551): 44~CloneInstance [Ln:551, Col:13 - Ln:578, Col:44]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\report\ReportVO.java(585): 45~CloneInstance [Ln:585, Col:13 - Ln:612, Col:44]
+
+46~CloneClass [Number of Clone Instances: 2, Lines of Code: 22]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java(500): 47~CloneInstance [Ln:500, Col:9 - Ln:521, Col:38]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java(746): 48~CloneInstance [Ln:746, Col:9 - Ln:767, Col:38]
+
+49~CloneClass [Number of Clone Instances: 2, Lines of Code: 24]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ScheduledEventsDwr.java(85): 50~CloneInstance [Ln:85, Col:9 - Ln:108, Col:25]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\PointLinksDwr.java(107): 51~CloneInstance [Ln:107, Col:9 - Ln:131, Col:25]
+
+52~CloneClass [Number of Clone Instances: 2, Lines of Code: 23]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java(633): 53~CloneInstance [Ln:633, Col:13 - Ln:655, Col:14]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java(660): 54~CloneInstance [Ln:660, Col:13 - Ln:682, Col:14]
+
+55~CloneClass [Number of Clone Instances: 2, Lines of Code: 24]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(162): 56~CloneInstance [Ln:162, Col:13 - Ln:185, Col:14]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(193): 57~CloneInstance [Ln:193, Col:13 - Ln:216, Col:14]
+
+58~CloneClass [Number of Clone Instances: 2, Lines of Code: 22]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java(496): 59~CloneInstance [Ln:496, Col:9 - Ln:517, Col:37]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java(744): 60~CloneInstance [Ln:744, Col:9 - Ln:765, Col:42]
+
+61~CloneClass [Number of Clone Instances: 2, Lines of Code: 21]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\MiscDwr.java(319): 62~CloneInstance [Ln:319, Col:38 - Ln:339, Col:18]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\MiscDwr.java(387): 63~CloneInstance [Ln:387, Col:45 - Ln:407, Col:14]
+
+64~CloneClass [Number of Clone Instances: 2, Lines of Code: 21]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java(1103): 65~CloneInstance [Ln:1103, Col:75 - Ln:1124, Col:6]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\PublisherEditDwr.java(150): 66~CloneInstance [Ln:150, Col:13 - Ln:170, Col:6]
+
+67~CloneClass [Number of Clone Instances: 2, Lines of Code: 22]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\type\EventType.java(51): 68~CloneInstance [Ln:51, Col:5 - Ln:117, Col:6]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\Common.java(106): 69~CloneInstance [Ln:106, Col:5 - Ln:127, Col:6]
+
+70~CloneClass [Number of Clone Instances: 2, Lines of Code: 22]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java(761): 71~CloneInstance [Ln:761, Col:13 - Ln:782, Col:14]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\EventHandlerVO.java(785): 72~CloneInstance [Ln:785, Col:13 - Ln:806, Col:14]
+
+73~CloneClass [Number of Clone Instances: 2, Lines of Code: 24]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\bacnet\BACnetIPPointLocatorVO.java(400): 74~CloneInstance [Ln:400, Col:9 - Ln:423, Col:64]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\bacnet\BACnetIPPointLocatorVO.java(424): 75~CloneInstance [Ln:424, Col:9 - Ln:451, Col:58]
+
+76~CloneClass [Number of Clone Instances: 2, Lines of Code: 22]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\bacnet\BACnetIPPointLocatorVO.java(400): 77~CloneInstance [Ln:400, Col:9 - Ln:421, Col:63]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\bacnet\BACnetIPPointLocatorVO.java(422): 78~CloneInstance [Ln:422, Col:9 - Ln:447, Col:59]
+
+79~CloneClass [Number of Clone Instances: 2, Lines of Code: 20]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\bacnet\BACnetIPPointLocatorVO.java(400): 80~CloneInstance [Ln:400, Col:9 - Ln:419, Col:109]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\bacnet\BACnetIPPointLocatorVO.java(420): 81~CloneInstance [Ln:420, Col:9 - Ln:443, Col:113]
+
+82~CloneClass [Number of Clone Instances: 6, Lines of Code: 22]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(321): 83~CloneInstance [Ln:321, Col:17 - Ln:344, Col:18]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(504): 84~CloneInstance [Ln:504, Col:13 - Ln:525, Col:14]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(540): 85~CloneInstance [Ln:540, Col:13 - Ln:561, Col:14]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(576): 86~CloneInstance [Ln:576, Col:13 - Ln:597, Col:14]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(661): 87~CloneInstance [Ln:661, Col:17 - Ln:684, Col:18]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(791): 88~CloneInstance [Ln:791, Col:13 - Ln:812, Col:14]
+
+89~CloneClass [Number of Clone Instances: 2, Lines of Code: 21]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\servlet\ImageChartServlet.java(92): 90~CloneInstance [Ln:92, Col:13 - Ln:112, Col:68]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\servlet\AsyncImageChartServlet.java(73): 91~CloneInstance [Ln:73, Col:13 - Ln:93, Col:68]
+
+92~CloneClass [Number of Clone Instances: 2, Lines of Code: 22]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\openv4j\OpenV4JDataSourceVO.java(146): 93~CloneInstance [Ln:146, Col:5 - Ln:167, Col:42]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\mbus\MBusDataSourceVO.java(154): 94~CloneInstance [Ln:154, Col:5 - Ln:175, Col:42]
+
+95~CloneClass [Number of Clone Instances: 2, Lines of Code: 21]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\handlers\SetPointHandlerRT.java(66): 96~CloneInstance [Ln:66, Col:12 - Ln:86, Col:10]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\handlers\SetPointHandlerRT.java(118): 97~CloneInstance [Ln:118, Col:12 - Ln:138, Col:10]
+
+98~CloneClass [Number of Clone Instances: 2, Lines of Code: 21]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\detectors\PositiveCusumDetectorRT.java(88): 99~CloneInstance [Ln:88, Col:5 - Ln:108, Col:6]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\rt\event\detectors\NegativeCusumDetectorRT.java(88): 100~CloneInstance [Ln:88, Col:5 - Ln:108, Col:6]
+
+101~CloneClass [Number of Clone Instances: 2, Lines of Code: 24]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ViewDwr.java(410): 102~CloneInstance [Ln:410, Col:5 - Ln:433, Col:6]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\ViewDwr.java(464): 103~CloneInstance [Ln:464, Col:5 - Ln:487, Col:6]
+
+104~CloneClass [Number of Clone Instances: 2, Lines of Code: 20]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java(1876): 105~CloneInstance [Ln:1876, Col:5 - Ln:1896, Col:6]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\DataSourceEditDwr.java(1898): 106~CloneInstance [Ln:1898, Col:5 - Ln:1917, Col:6]
+
+107~CloneClass [Number of Clone Instances: 2, Lines of Code: 48]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\pop3\Pop3PointLocatorVO.java(145): 108~CloneInstance [Ln:145, Col:5 - Ln:192, Col:6]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\dataSource\http\HttpRetrieverPointLocatorVO.java(125): 109~CloneInstance [Ln:125, Col:5 - Ln:172, Col:6]
+
+110~CloneClass [Number of Clone Instances: 2, Lines of Code: 35]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(601): 111~CloneInstance [Ln:601, Col:5 - Ln:635, Col:6]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(743): 112~CloneInstance [Ln:743, Col:5 - Ln:778, Col:6]
+
+113~CloneClass [Number of Clone Instances: 4, Lines of Code: 35]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(493): 114~CloneInstance [Ln:493, Col:5 - Ln:527, Col:6]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(529): 115~CloneInstance [Ln:529, Col:5 - Ln:563, Col:6]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(565): 116~CloneInstance [Ln:565, Col:5 - Ln:599, Col:6]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(780): 117~CloneInstance [Ln:780, Col:5 - Ln:814, Col:6]
+
+118~CloneClass [Number of Clone Instances: 2, Lines of Code: 51]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(297): 119~CloneInstance [Ln:297, Col:5 - Ln:347, Col:6]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\web\dwr\beans\ImportTask.java(637): 120~CloneInstance [Ln:637, Col:5 - Ln:687, Col:6]
+
+121~CloneClass [Number of Clone Instances: 2, Lines of Code: 24]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\ScheduledEventVO.java(242): 122~CloneInstance [Ln:242, Col:5 - Ln:265, Col:94]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\vo\event\MaintenanceEventVO.java(387): 123~CloneInstance [Ln:387, Col:5 - Ln:410, Col:94]
+
+124~CloneClass [Number of Clone Instances: 2, Lines of Code: 22]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\component\MultistateGraphicComponent.java(93): 125~CloneInstance [Ln:93, Col:5 - Ln:114, Col:6]
+C:\Users\meet\Desktop\semProject\mangoSource\src\com\serotonin\mango\view\graphic\MultistateImageSetRenderer.java(98): 126~CloneInstance [Ln:98, Col:5 - Ln:119, Col:6]
+

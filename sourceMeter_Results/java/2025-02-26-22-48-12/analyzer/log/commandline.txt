@@ -1,0 +1,4 @@
+C:\Users\meet\Desktop\semProject\SourceMeter-10.2.0-x64-Windows\Java\AnalyzerJava.exe
+-projectName=MyProject
+-projectBaseDir=C:\Users\meet\Desktop\semProject\mangoSource\src
+-resultsDir=C:\Users\meet\Desktop\semProject
