@@ -37,8 +37,10 @@ import com.dalsemi.onewire.container.SwitchContainer;
 import com.dalsemi.onewire.utils.Address;
 
 /**
- * A utility that can scan a network, and return the network to its pre-scan state. This is important because we can't
- * necessarily tell the difference between relays (that are controlling equipment), and latches (that are serving as
+ * A utility that can scan a network, and return the network to its pre-scan
+ * state. This is important because we can't
+ * necessarily tell the difference between relays (that are controlling
+ * equipment), and latches (that are serving as
  * branches to other devices).
  * 
  * @author Matthew Lohbihler
@@ -74,9 +76,12 @@ public class Network {
         List<NetworkPathElement> toTurnBackOn = new ArrayList<NetworkPathElement>();
         initializeImpl(new NetworkPath(this), toTurnBackOn);
 
-        // Turn back on any latches that we turned off. Note that only the leaves of the network will actually be
-        // turned back on because the path close method will turn off all latches on the way to it. However, if
-        // there are no latches to be turned on past a coupler, it will be turned on. Make sense?
+        // Turn back on any latches that we turned off. Note that only the leaves of the
+        // network will actually be
+        // turned back on because the path close method will turn off all latches on the
+        // way to it. However, if
+        // there are no latches to be turned on past a coupler, it will be turned on.
+        // Make sense?
         for (NetworkPathElement element : toTurnBackOn) {
             NetworkPath path = pathsByAddress.get(((OneWireContainer) element.getContainer()).getAddressAsLong());
             path.open();
@@ -149,14 +154,17 @@ public class Network {
         StringBuilder sb = new StringBuilder();
         sb.append('[');
         boolean first = true;
-        for (Long address : pathsByAddress.keySet()) {
+
+        for (Map.Entry<Long, NetworkPath> entry : pathsByAddress.entrySet()) {
             if (first)
                 first = false;
             else
                 sb.append(", ");
-            sb.append(pathsByAddress.get(address));
-            sb.append(Address.toString(address));
+
+            sb.append(entry.getValue()); // Directly accessing the NetworkPath value
+            sb.append(Address.toString(entry.getKey())); // Accessing the key
         }
+
         sb.append(']');
         return sb.toString();
     }
@@ -192,8 +200,10 @@ public class Network {
                         state = sc.readDevice();
                         for (int ch = 0; ch < sc.getNumberChannels(state); ch++) {
                             if (sc.getLatchState(ch, state)) {
-                                // We found a latch that is on. In order to reliably construct a network tree we need
-                                // to turn this off temporarily, so we add it to the list to "turn back on", turn it
+                                // We found a latch that is on. In order to reliably construct a network tree we
+                                // need
+                                // to turn this off temporarily, so we add it to the list to "turn back on",
+                                // turn it
                                 // off, and then note that we need to re-search.
                                 sc.setLatchState(ch, false, false, state);
                                 sc.writeDevice(state);
@@ -203,9 +213,9 @@ public class Network {
                                 reSearch = true;
                             }
                         }
-                    }
-                    catch (OneWireIOException e) {
-                        // The device may no longer be available because we could have turned off a branch that leads
+                    } catch (OneWireIOException e) {
+                        // The device may no longer be available because we could have turned off a
+                        // branch that leads
                         // to it. Just ignore this.
                     }
                 }
@@ -218,10 +228,12 @@ public class Network {
                 searchResult = adapter.findFirstDevice();
         }
 
-        // Any new devices that we now find in the search will be children of the current path.
+        // Any new devices that we now find in the search will be children of the
+        // current path.
         searchResult = adapter.findFirstDevice();
 
-        // Keep track of any new branches that we find so that we can search them recursively.
+        // Keep track of any new branches that we find so that we can search them
+        // recursively.
         List<NetworkPath> newBranches = new ArrayList<NetworkPath>();
 
         while (searchResult) {
@@ -247,8 +259,7 @@ public class Network {
                         for (int ch = 0; ch < sc.getNumberChannels(state); ch++)
                             newBranches.add(new NetworkPath(path, sc, address, ch));
                     }
-                }
-                else if (owc instanceof OneWireContainer1D) {
+                } else if (owc instanceof OneWireContainer1D) {
                     // Map it.
                     OneWireContainerInfo info = new OneWireContainerInfo();
                     info.setAddress(address);
@@ -279,7 +290,8 @@ public class Network {
     }
 
     /**
-     * Recursive method for searching the network. Only treats 1F containers as network branches, so the overhead of
+     * Recursive method for searching the network. Only treats 1F containers as
+     * network branches, so the overhead of
      * checking other latch types is avoided.
      * 
      * @param path
@@ -296,7 +308,8 @@ public class Network {
         // Start a search for all devices.
         boolean searchResult = adapter.findFirstDevice();
 
-        // Keep track of any new branches that we find so that we can search them recursively.
+        // Keep track of any new branches that we find so that we can search them
+        // recursively.
         List<NetworkPath> newBranches = new ArrayList<NetworkPath>();
 
         while (searchResult) {
@@ -322,8 +335,7 @@ public class Network {
                         for (int ch = 0; ch < sc.getNumberChannels(state); ch++)
                             newBranches.add(new NetworkPath(path, sc, address, ch));
                     }
-                }
-                else if (owc instanceof OneWireContainer1D) {
+                } else if (owc instanceof OneWireContainer1D) {
                     // Map it.
                     OneWireContainerInfo info = new OneWireContainerInfo();
                     info.setAddress(address);
