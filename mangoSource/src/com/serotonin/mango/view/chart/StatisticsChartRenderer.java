@@ -50,7 +50,7 @@ public class StatisticsChartRenderer extends TimePeriodChartRenderer {
     }
 
     public ImplDefinition getDef() {
-        return definition;
+        return getDefinition();
     }
 
     @JsonRemoteProperty
@@ -81,7 +81,8 @@ public class StatisticsChartRenderer extends TimePeriodChartRenderer {
         // Generate statistics on the values.
         int dataTypeId = point.getPointLocator().getDataTypeId();
 
-        // The start value is the value of the point at the start of the period for this renderer.
+        // The start value is the value of the point at the start of the period for this
+        // renderer.
         PointValueTime startValue = null;
         if (values.size() == 0 || values.get(0).getTime() > startTime) {
             // Get the value of the point at the start time
@@ -98,8 +99,7 @@ public class StatisticsChartRenderer extends TimePeriodChartRenderer {
                 model.put("start", stats.getRealStart());
                 model.put("end", stats.getEnd());
                 model.put("startsAndRuntimes", stats.getData());
-            }
-            else if (dataTypeId == DataTypes.NUMERIC) {
+            } else if (dataTypeId == DataTypes.NUMERIC) {
                 AnalogStatistics stats = new AnalogStatistics(startValue, values, startTime, startTime + getDuration());
                 model.put("start", stats.getRealStart());
                 model.put("end", stats.getEnd());
@@ -112,8 +112,7 @@ public class StatisticsChartRenderer extends TimePeriodChartRenderer {
                     model.put("sum", stats.getSum());
                 model.put("count", stats.getCount());
                 model.put("noData", stats.isNoData());
-            }
-            else if (dataTypeId == DataTypes.ALPHANUMERIC) {
+            } else if (dataTypeId == DataTypes.ALPHANUMERIC) {
                 ValueChangeCounter stats = new ValueChangeCounter(startValue, values);
                 model.put("changeCount", stats.getChangeCount());
             }
@@ -138,7 +137,8 @@ public class StatisticsChartRenderer extends TimePeriodChartRenderer {
     private void readObject(ObjectInputStream in) throws IOException {
         int ver = in.readInt();
 
-        // Switch on the version of the class so that version changes can be elegantly handled.
+        // Switch on the version of the class so that version changes can be elegantly
+        // handled.
         if (ver == 1)
             includeSum = true;
         else if (ver == 2)

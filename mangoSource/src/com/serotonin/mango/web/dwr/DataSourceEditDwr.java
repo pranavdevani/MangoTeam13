@@ -271,8 +271,7 @@ public class DataSourceEditDwr extends DataSourceListDwr {
             dp.setEventDetectors(new ArrayList<PointEventDetectorVO>(0));
             if (defaulter != null)
                 defaulter.setDefaultValues(dp);
-        }
-        else {
+        } else {
             dp = new DataPointDao().getDataPoint(pointId);
             if (dp != null && dp.getDataSourceId() != ds.getId())
                 throw new RuntimeException("Data source id mismatch");
@@ -414,23 +413,19 @@ public class DataSourceEditDwr extends DataSourceListDwr {
             modbusMaster.init();
             Object result = modbusMaster.getValue(bl);
             response.addData("result", new LocalizableMessage("dsEdit.modbus.locatorTest.result", result));
-        }
-        catch (ModbusInitException e) {
+        } catch (ModbusInitException e) {
             if (serial)
                 response.addMessage(new LocalizableMessage("dsEdit.modbus.locatorTestIp.startError", e.getMessage()));
             else
-                response.addMessage(new LocalizableMessage("dsEdit.modbus.locatorTestSerial.startError", e.getMessage()));
-        }
-        catch (ErrorResponseException e) {
+                response.addMessage(
+                        new LocalizableMessage("dsEdit.modbus.locatorTestSerial.startError", e.getMessage()));
+        } catch (ErrorResponseException e) {
             response.addMessage(new LocalizableMessage("common.default", e.getErrorResponse().getExceptionMessage()));
-        }
-        catch (ModbusTransportException e) {
+        } catch (ModbusTransportException e) {
             response.addMessage(ModbusDataSource.localExceptionMessage(e));
-        }
-        catch (IllegalCharsetNameException e) {
+        } catch (IllegalCharsetNameException e) {
             response.addMessage(new LocalizableMessage("validate.invalidCharset"));
-        }
-        finally {
+        } finally {
             modbusMaster.destroy();
         }
     }
@@ -457,28 +452,24 @@ public class DataSourceEditDwr extends DataSourceListDwr {
                     boolean[] data = mres.getBooleanData();
                     for (int i = 0; i < length; i++)
                         results.add(Integer.toString(offset + i) + " ==> " + Boolean.toString(data[i]));
-                }
-                else {
+                } else {
                     short[] data = mres.getShortData();
                     for (int i = 0; i < length; i++)
                         results.add(Integer.toString(offset + i) + " ==> " + StreamUtils.toHex(data[i]));
                 }
                 response.addData("results", results);
             }
-        }
-        catch (ModbusIdException e) {
+        } catch (ModbusIdException e) {
             response.addMessage(ModbusDataSource.localExceptionMessage(e));
-        }
-        catch (ModbusInitException e) {
+        } catch (ModbusInitException e) {
             if (serial)
                 response.addMessage(new LocalizableMessage("dsEdit.modbus.locatorTestIp.startError", e.getMessage()));
             else
-                response.addMessage(new LocalizableMessage("dsEdit.modbus.locatorTestSerial.startError", e.getMessage()));
-        }
-        catch (ModbusTransportException e) {
+                response.addMessage(
+                        new LocalizableMessage("dsEdit.modbus.locatorTestSerial.startError", e.getMessage()));
+        } catch (ModbusTransportException e) {
             response.addMessage(ModbusDataSource.localExceptionMessage(e));
-        }
-        finally {
+        } finally {
             modbusMaster.destroy();
         }
     }
@@ -528,8 +519,7 @@ public class DataSourceEditDwr extends DataSourceListDwr {
         try {
             modbusMaster = createModbusSerialMaster(timeout, retries, commPortId, baudRate, flowControlIn,
                     flowControlOut, dataBits, stopBits, parity, encoding, concurrency);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             return getMessage("dsEdit.modbus.scanError");
         }
         ModbusNodeScanListener scan = new ModbusNodeScanListener(getResourceBundle(), modbusMaster, true);
@@ -547,8 +537,7 @@ public class DataSourceEditDwr extends DataSourceListDwr {
             modbusMaster = createModbusSerialMaster(timeout, retries, commPortId, baudRate, flowControlIn,
                     flowControlOut, dataBits, stopBits, parity, encoding, concurrency);
             testModbusPointLocator(modbusMaster, locator, true, response);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             response.addMessage(new LocalizableMessage("dsEdit.modbus.scanError"));
         }
         return response;
@@ -564,8 +553,7 @@ public class DataSourceEditDwr extends DataSourceListDwr {
             modbusMaster = createModbusSerialMaster(timeout, retries, commPortId, baudRate, flowControlIn,
                     flowControlOut, dataBits, stopBits, parity, encoding, concurrency);
             testModbusData(modbusMaster, slaveId, range, offset, length, true, response);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             response.addMessage(new LocalizableMessage("dsEdit.modbus.scanError"));
         }
         return response;
@@ -635,7 +623,8 @@ public class DataSourceEditDwr extends DataSourceListDwr {
     }
 
     @MethodFilter
-    public String modbusIpScan(int timeout, int retries, String transport, String host, int port, boolean encapsulated) {
+    public String modbusIpScan(int timeout, int retries, String transport, String host, int port,
+            boolean encapsulated) {
         ModbusMaster modbusMaster = createModbusIpMaster(timeout, retries, transport, host, port, encapsulated);
         ModbusNodeScanListener scan = new ModbusNodeScanListener(getResourceBundle(), modbusMaster, false);
         Common.getUser().setTestingUtility(scan);
@@ -703,12 +692,14 @@ public class DataSourceEditDwr extends DataSourceListDwr {
     }
 
     @MethodFilter
-    public DwrResponseI18n saveSpinwaveV1PointLocator(int id, String xid, String name, SpinwaveV1PointLocatorVO locator) {
+    public DwrResponseI18n saveSpinwaveV1PointLocator(int id, String xid, String name,
+            SpinwaveV1PointLocatorVO locator) {
         return validatePoint(id, xid, name, locator, null);
     }
 
     @MethodFilter
-    public DwrResponseI18n saveSpinwaveV2PointLocator(int id, String xid, String name, SpinwaveV2PointLocatorVO locator) {
+    public DwrResponseI18n saveSpinwaveV2PointLocator(int id, String xid, String name,
+            SpinwaveV2PointLocatorVO locator) {
         return validatePoint(id, xid, name, locator, null);
     }
 
@@ -956,20 +947,16 @@ public class DataSourceEditDwr extends DataSourceListDwr {
                 }
 
                 response.addData("devices", devices);
-            }
-            finally {
+            } finally {
                 network.unlock();
             }
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             response.addGenericMessage("common.default", e.getMessage());
-        }
-        finally {
+        } finally {
             try {
                 if (network != null)
                     network.terminate();
-            }
-            catch (OneWireException e) {
+            } catch (OneWireException e) {
                 // no op
             }
         }
@@ -1015,14 +1002,11 @@ public class DataSourceEditDwr extends DataSourceListDwr {
             else
                 response.addContextualMessage("script", "dsEdit.meta.test.successTs", pvt.getValue(),
                         DateFunctions.getTime(pvt.getTime()));
-        }
-        catch (DataPointStateException e) {
+        } catch (DataPointStateException e) {
             response.addMessage("context", e.getLocalizableMessage());
-        }
-        catch (ScriptException e) {
+        } catch (ScriptException e) {
             response.addContextualMessage("script", "dsEdit.meta.test.scriptError", e.getMessage());
-        }
-        catch (ResultTypeException e) {
+        } catch (ResultTypeException e) {
             response.addMessage("script", e.getLocalizableMessage());
         }
 
@@ -1045,7 +1029,8 @@ public class DataSourceEditDwr extends DataSourceListDwr {
         prt.initializeHistorical();
 
         try {
-            // Get the most recent inception date of the context points. This will be the "from" of the history range.
+            // Get the most recent inception date of the context points. This will be the
+            // "from" of the history range.
             long from = 0;
             List<Integer> dataPointIds = new ArrayList<Integer>();
             for (IntValuePair ivp : plvo.getContext()) {
@@ -1059,7 +1044,8 @@ public class DataSourceEditDwr extends DataSourceListDwr {
                 dataPointIds.add(ivp.getKey());
             }
 
-            // Get the inception date target point. This will be the "to" of the history range.
+            // Get the inception date target point. This will be the "to" of the history
+            // range.
             long to = pointValueDao.getInceptionDate(pointId);
             if (to == -1)
                 to = System.currentTimeMillis();
@@ -1076,8 +1062,7 @@ public class DataSourceEditDwr extends DataSourceListDwr {
                 });
                 simTimer.fastForwardTo(to);
                 plrt.terminate();
-            }
-            catch (MetaPointExecutionException e) {
+            } catch (MetaPointExecutionException e) {
                 return new LocalizableMessage("dsEdit.meta.generate.error", e.getErrorMessage(), plrt.getUpdates());
             }
 
@@ -1088,8 +1073,7 @@ public class DataSourceEditDwr extends DataSourceListDwr {
             }
 
             return new LocalizableMessage("dsEdit.meta.generate.success", plrt.getUpdates());
-        }
-        finally {
+        } finally {
             prt.terminateHistorical();
         }
     }
@@ -1200,11 +1184,9 @@ public class DataSourceEditDwr extends DataSourceListDwr {
             result.addData("deviceInstanceNumber", d.getObjectIdentifier().getInstanceNumber());
             result.addData("deviceDescription", BACnetDiscovery.getDeviceDescription(d));
             result.addData("deviceDetails", details);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             result.addData("error", e.getMessage());
-        }
-        finally {
+        } finally {
             localDevice.terminate();
         }
 
@@ -1231,7 +1213,8 @@ public class DataSourceEditDwr extends DataSourceListDwr {
         locator.setDataTypeId(bean.getDataTypeId());
         locator.setUseCovSubscription(bean.isCov());
 
-        // We would like to default text renderer values too, but it's rather inconvenient to do.
+        // We would like to default text renderer values too, but it's rather
+        // inconvenient to do.
 
         return dp;
     }
@@ -1275,11 +1258,9 @@ public class DataSourceEditDwr extends DataSourceListDwr {
             MangoValue value = DataSourceUtils.getValue(valuePattern, data, dataTypeId, valueFormat, null,
                     decimalFormat, null);
             return getMessage("common.result") + ": " + value.toString();
-        }
-        catch (LocalizableException e) {
+        } catch (LocalizableException e) {
             return getMessage(e.getLocalizableMessage());
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             return e.getMessage();
         }
     }
@@ -1294,11 +1275,9 @@ public class DataSourceEditDwr extends DataSourceListDwr {
             DateFormat dateFormat = new SimpleDateFormat(timeFormat);
             long time = DataSourceUtils.getValueTime(System.currentTimeMillis(), timePattern, data, dateFormat, null);
             return DateFunctions.getTime(time);
-        }
-        catch (LocalizableException e) {
+        } catch (LocalizableException e) {
             return getMessage(e.getLocalizableMessage());
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             return e.getMessage();
         }
     }
@@ -1365,11 +1344,9 @@ public class DataSourceEditDwr extends DataSourceListDwr {
             MangoValue value = DataSourceUtils.getValue(valuePattern, testData, dataTypeId, valueFormat, null,
                     decimalFormat, null);
             return getMessage("common.result") + ": " + value.toString();
-        }
-        catch (LocalizableException e) {
+        } catch (LocalizableException e) {
             return getMessage(e.getLocalizableMessage());
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             return e.getMessage();
         }
     }
@@ -1382,8 +1359,7 @@ public class DataSourceEditDwr extends DataSourceListDwr {
             long time = DataSourceUtils.getValueTime(System.currentTimeMillis(), timePattern, testData, dateFormat,
                     null);
             return DateFunctions.getTime(time);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             return e.getMessage();
         }
     }
@@ -1393,7 +1369,8 @@ public class DataSourceEditDwr extends DataSourceListDwr {
     // NMEA stuff
     //
     @MethodFilter
-    public DwrResponseI18n saveNmeaDataSource(String name, String xid, String commPortId, int baudRate, int resetTimeout) {
+    public DwrResponseI18n saveNmeaDataSource(String name, String xid, String commPortId, int baudRate,
+            int resetTimeout) {
         NmeaDataSourceVO ds = (NmeaDataSourceVO) Common.getUser().getEditDataSource();
 
         ds.setXid(xid);
@@ -1462,16 +1439,18 @@ public class DataSourceEditDwr extends DataSourceListDwr {
         Permissions.ensureDataSourcePermission(user);
 
         try {
-            GalilCommandTester tester = new GalilCommandTester(getResourceBundle(), host, port, timeout, command);
-            try {
-                tester.join();
-                return tester.getResult();
-            }
-            catch (InterruptedException e) {
-                return e.getMessage();
-            }
+            return executeGalilCommand(host, port, timeout, command);
+        } catch (IOException e) {
+            return e.getMessage();
         }
-        catch (IOException e) {
+    }
+
+    private String executeGalilCommand(String host, int port, int timeout, String command) throws IOException {
+        GalilCommandTester tester = new GalilCommandTester(getResourceBundle(), host, port, timeout, command);
+        try {
+            tester.join();
+            return tester.getResult();
+        } catch (InterruptedException e) {
             return e.getMessage();
         }
     }
@@ -1548,12 +1527,10 @@ public class DataSourceEditDwr extends DataSourceListDwr {
                                 low.setLimit(locator.getLowLimit());
                         }
                     });
-                }
-                else
+                } else
                     response.addMessage("sampleRate", errorMessage);
             }
-        }
-        else
+        } else
             response = validatePoint(id, xid, name, locator, null);
 
         return response;
@@ -1647,11 +1624,9 @@ public class DataSourceEditDwr extends DataSourceListDwr {
                     devices.add(dev);
                 }
                 response.addData("devices", devices);
-            }
-            catch (ViconicsTransportException e) {
+            } catch (ViconicsTransportException e) {
                 response.addGenericMessage("dsEdit.viconics.networkIdentifyFailure", e.getMessage());
-            }
-            catch (RequestFailureException e) {
+            } catch (RequestFailureException e) {
                 response.addGenericMessage("dsEdit.viconics.networkIdentifyFailure", e.getMessage());
             }
         }
@@ -1758,8 +1733,9 @@ public class DataSourceEditDwr extends DataSourceListDwr {
             locator.setStorageNumber(db.getStorageNumber());
             locator.setTariff(db.getTariff());
             locator.setSiPrefix(db.getVif().getSiPrefix() == null ? null : db.getVif().getSiPrefix().getLabel());
-            locator.setUnitOfMeasurement(db.getVif().getUnitOfMeasurement() == null ? null : db.getVif()
-                    .getUnitOfMeasurement().getLabel());
+            locator.setUnitOfMeasurement(db.getVif().getUnitOfMeasurement() == null ? null
+                    : db.getVif()
+                            .getUnitOfMeasurement().getLabel());
             locator.setVifType(db.getVif().getVifType().getLabel());
             locator.setVifLabel(db.getVif().getLabel());
             locator.setExponent(db.getVif().getExponent());
@@ -1772,8 +1748,7 @@ public class DataSourceEditDwr extends DataSourceListDwr {
                 }
                 locator.setVifeTypes(vifeTypes);
                 locator.setVifeLabels(vifeLabels);
-            }
-            else {
+            } else {
                 locator.setVifeLabels(null);
             }
         }
@@ -2035,11 +2010,9 @@ public class DataSourceEditDwr extends DataSourceListDwr {
             MangoValue value = DataSourceUtils.getValue(pachubeValue.getValue(), dataTypeId, binary0Value, null, null,
                     null);
             return getMessage("common.result") + ": " + value.toString();
-        }
-        catch (LocalizableException e) {
+        } catch (LocalizableException e) {
             return getMessage(e.getLocalizableMessage());
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             return e.getMessage();
         }
     }
@@ -2063,7 +2036,8 @@ public class DataSourceEditDwr extends DataSourceListDwr {
     }
 
     @MethodFilter
-    public DwrResponseI18n savePersistentPointLocator(int id, String xid, String name, PersistentPointLocatorVO locator) {
+    public DwrResponseI18n savePersistentPointLocator(int id, String xid, String name,
+            PersistentPointLocatorVO locator) {
         return validatePoint(id, xid, name, locator, null);
     }
 
@@ -2099,8 +2073,7 @@ public class DataSourceEditDwr extends DataSourceListDwr {
         try {
             ArrayList<String> serverList = new RealOPCMaster().listOPCServers(user, password, host, domain);
             response.addData("servers", serverList);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             response.addGenericMessage("common.default", e.getMessage());
         }
         return response;
@@ -2117,8 +2090,7 @@ public class DataSourceEditDwr extends DataSourceListDwr {
             opcItems = new RealOPCMaster().browseOPCTags(user, password, host, domain, serverName);
             if (LOG.isDebugEnabled())
                 LOG.debug("TAMANHO: " + opcItems.size());
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             // no op
         }
 
@@ -2209,11 +2181,9 @@ public class DataSourceEditDwr extends DataSourceListDwr {
                 try {
                     connector = JMXConnectorFactory.connect(new JMXServiceURL(url), null);
                     server = connector.getMBeanServerConnection();
-                }
-                catch (MalformedURLException e) {
+                } catch (MalformedURLException e) {
                     response.addGenericMessage("dsEdit.jmx.badUrl", e.getMessage());
-                }
-                catch (IOException e) {
+                } catch (IOException e) {
                     response.addGenericMessage("dsEdit.jmx.connectionError", e.getMessage());
                 }
             }
@@ -2248,29 +2218,24 @@ public class DataSourceEditDwr extends DataSourceListDwr {
                                                     .put("type", cd.getCompositeType().getType(key).getTypeName());
                                         }
                                     }
-                                }
-                                else
+                                } else
                                     objectAttributes.put("type", attr.getType());
                                 objectAttributesList.add(objectAttributes);
-                            }
-                            catch (RuntimeMBeanException e) {
+                            } catch (RuntimeMBeanException e) {
                                 // ignore
                             }
                         }
                     }
-                }
-                catch (Exception e) {
+                } catch (Exception e) {
                     response.addGenericMessage("dsEdit.jmx.readError", e.getMessage());
                     LOG.warn("", e);
                 }
             }
-        }
-        finally {
+        } finally {
             try {
                 if (connector != null)
                     connector.close();
-            }
-            catch (IOException e) {
+            } catch (IOException e) {
                 // no op
             }
         }
